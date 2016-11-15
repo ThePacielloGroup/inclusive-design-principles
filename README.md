@@ -8,4 +8,4 @@ TODO (set of agreed principles)
 
 ## Contributing
 
-To contribute a principle, create an issue named after that principle (e.g. "Adaptable") and describe the principle, using supporting material, such as examples, where appropriate. This can be included in the **Web interfaces should be...** section above, when consensus is reached.
+To contribute a principle, create an issue named after that principle (e.g. "Adaptable") and describe the principle, using supporting material, such as examples, where appropriate. This can be included in the **Web interfaces should be...** section above when consensus deems the principle complete.
