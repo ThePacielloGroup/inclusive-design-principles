@@ -2,7 +2,7 @@
 
 A set of principles for designing inclusive web interfaces.
 
-## Inclusive web interfaces are...
+## The principles
 
 TODO (set of agreed principles)
 
