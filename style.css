@@ -1,0 +1,136 @@
+*, *::before, *::after {
+  font-family: inherit;
+  color: inherit;
+  margin: 0;
+  padding: 0;
+  font-size: inherit;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Asap, sans-serif;
+  font-size: calc(1em + 1vw);
+  color: #111;
+  line-height: 1.4;
+}
+
+header > div, main {
+  background-color: #fefefe;
+  max-width: 30rem;
+  margin: 0 auto;
+  padding: 1.5rem;
+}
+
+header > div {
+  padding-bottom: 0;
+}
+
+main {
+  padding-top: 0;
+}
+
+header p {
+  font-size: 0.66rem;
+  margin-top: 0;
+}
+
+* + * {
+  margin-top: 1.4rem;
+}
+
+body, br, dt, dd, th, td, option, [hidden] + *, li + li {
+  margin-top: 0;
+}
+
+p + p {
+  margin-top: 0.75rem;
+}
+
+a {
+  color: #2c5aa0;
+}
+
+[href*="#"] {
+  text-decoration: none;
+}
+
+:focus:not([tabindex="-1"]) {
+  outline: 2px solid #80b3ff;
+}
+
+/* fix for IE :( */
+div:not([tabindex]):focus {
+  outline: none;
+}
+
+h1, h2, h3, h4 {
+  font-family: Miriam Libre, serif;
+  line-height: 1.1;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 1.125rem;
+  text-transform: uppercase;
+  padding: 0.75rem 0 0.6rem;
+  border: 1px solid;
+  border-left: 0;
+  border-right: 0;
+  line-height: 1;
+  margin-top: 2.1rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+h4 {
+  font-size: 1.125rem;
+}
+
+main ul {
+  padding-left: 2em;
+  font-size: 0.75rem;
+}
+
+main ul li + li {
+  border-top: 1px solid;
+  margin-top: 0.75rem;
+  padding-top: 0.75rem;
+}
+
+nav {
+  text-align: right;
+  background: url(../images/line.svg) repeat-x center;
+}
+
+nav ul {
+  padding: 0.5rem 1rem 0.5rem 0.5rem;
+  display: inline-block;
+  background-color: #fefefe;
+}
+
+nav li {
+  display: inline-block;
+  font-family: Miriam Libre, serif;
+  text-transform: uppercase;
+  line-height: 1;
+  padding-left: 0.5rem;
+}
+
+h4 button {
+  border: 0;
+  padding: 0;
+  background: transparent;
+}
+
+[aria-expanded="false"] i::before {
+  content: '+';
+}
+
+[aria-expanded="true"] i::before {
+  content: '\2013';
+}
