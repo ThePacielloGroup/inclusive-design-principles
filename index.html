@@ -1,1 +1,88 @@
-Well hey, you know, inclusiveprinciples.site isn't ready yet.
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link href="https://fonts.googleapis.com/css?family=Miriam+Libre:700&text=ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz%26" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Asap:400,400i&subset=latin" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Inclusive Design Principles</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#introduction">Introduction</a></li>
+          <li><a href="#principles">The Principles</a></li>
+        </ul>
+      </nav>
+      <div>
+        <h1>
+          Inclusive<br>
+          Design<br>
+          Principles
+        </h1>
+        <p>Contributors: Henny Swan, Ian Pouncey, Heydon Pickering, Léonie Watson</p>
+      </div>
+    </header>
+    <main>
+      <h2 id="introduction">Introduction</h2>
+      <p>Inclusive design is the practice of making products and interfaces that can be used and enjoyed by different kinds of people in different situations. The purpose of this document is to set out the core principles of inclusive interface design for the web and native applications. When employing inclusive interface design, you provide better experiences for readers, customers, players and collaborators.</p>
+      <p>The inclusive design approach to accessibility is intersectional. It appreciates that the abilities and disabilities of any one person can be multiple, intermittent, and dependent on changing circumstances.  It addresses the relationships between social, environmental, physical, and technological conditions.</p>
+      <p>Inclusive design recognizes that people differ in their adaptations to any of these conditions. An inclusive product or interface therefore has to be flexible, and sometimes multifaceted. It is through flexibility that robustness is achieved. A robust interface is less likely to fail anyone, whoever they are.</p>
+      <h2 id="principles">The Principles</h2>
+      <h3 id="define-purpose"><a href="#define-purpose" aria-label="define purpose shortcut">&#x279c;</a> Define purpose &amp; outcomes</h3>
+      <p><em>The purpose and intended outcomes of a feature should be defined as the basis for following other design principles, particularly equivalent experience.</em></p>
+      <h4><button data-expands="define-purpose-desc" aria-expanded="false"><i class="icon" aria-hidden="true"></i> Full description</button></h4>
+      <div id="define-purpose-desc" style="display: none">
+        <p>Inclusive design is not concerned with ornamentation. Every design decision should be informed by the needs and goals of users, as established by research and consensus. Features without a user-driven mandate should not be included at all, and those that are should address users' needs as simply and directly as possible.</p>
+      </div>
+      <h4><button data-expands="define-purpose-egs" aria-expanded="false"><i class="icon" aria-hidden="true"></i> Examples</button></h4>
+      <div id="define-purpose-egs" style="display: none">
+        <ul class="examples">
+          <li>A list of links may have the purpose of navigation. It is important that all parties can locate and apprehend the list of links as a navigation region, through visual design and programmatic disclosure.</li>
+          <li>An image of an author might have the purpose of identification or for use in promotional material. Depending on the surrounding content the image could be considered decorative or content. If merely decorative, it has nothing of value to offer non-visually and can be hidden to assistive technologies.</li>
+        </ul>
+      </div>
+      <h3 id="put-people-first"><a href="#put-people-first" aria-label="put people first shortcut">&#x279c;</a> Put people first</h3>
+      <p><em>Avoid techniques and technologies that marginalize certain groups of people, or otherwise get in the way of achieving the goal of inclusivity.</em></p>
+      <h3 id="consider-circumstances"><a href="#consider-circumstances" aria-label="consider circumstances shortcut">&#x279c;</a> Consider circumstance</h3>
+      <p><em>People use your interface through shifting situations. Make sure circumstances do not prohibit a valuable experience.</em></p>
+      <h3 id="aim-for-equivalence"><a href="#aim-for-equivalence" aria-label="aim for equivalence shortcut">&#x279c;</a> Aim for equivalence</h3>
+      <p><em>Users may consume an interface in different ways, but the value they glean from the interface should be similar.</em></p>
+      <h3 id="harness-convention"><a href="#harness-convention" aria-label="harness convention shortcut">&#x279c;</a> Harness convention</h3>
+      <p><em>Reveal functionality in familiar and expected ways to accelerate people's understanding of your interface.</em></p>
+      <h3 id="be-consistent"><a href="#be-consistent" aria-label="be consistent shortcut">&#x279c;</a> Be consistent</h3>
+      <p><em>Offer the same information, functionality, and behavior in the same way throughout your interface.</em></p>
+      <h3 id="support-control"><a href="#support-control" aria-label="support control shortcut">&#x279c;</a> Support control</h3>
+      <p><em>Ensure users are able to customize the interface where needed to improve their experience of it.</em></p>
+      <h3 id="offer-choice"><a href="#offer-choice" aria-label="offer choice shortcut">&#x279c;</a> Offer choice</h3>
+      <p><em>For complex or nonstandard tasks, provide different ways to complete them. Different people are comfortable with different approaches.</em></p>
+      <h3 id="prioritize"><a href="#prioritize" aria-label="prioritize shortcut">&#x279c;</a> Prioritize important or frequent tasks</h3>
+      <p><em>Bring features which are integral to the understanding and operation of the interface to the forefront.</em></p>
+      <h3 id="keep-focused"><a href="#keep-focused" aria-label="keep focused shortcut">&#x279c;</a> Keep focused</h3>
+      <p><em>Provide context-specific information and functionality in a clear and timely fashion.</em></p>
+      <h3 id="add-value"><a href="#add-value" aria-label="add value shortcut">&#x279c;</a> Add value</h3>
+      <p><em>Only include features that add value. Features that do not add value only diminish simplicity.</em></p>
+    </main>
+    <script>
+      (function() {
+        var toggles = document.querySelectorAll('[data-expands]');
+        [].forEach.call(toggles, function(toggle) {
+          toggle.addEventListener('click', function() {
+            var expanded = (this.getAttribute('aria-expanded') === 'true');
+            var target = document.getElementById(toggle.getAttribute('data-expands'));
+            if (expanded) {
+              this.setAttribute('aria-expanded', 'false');
+              target.style.display = 'none';
+            } else {
+              this.setAttribute('aria-expanded', 'true');
+              target.style.display = 'block';
+            }
+          });
+        });
+      })();
+    </script>
+  </body>
+</html>
