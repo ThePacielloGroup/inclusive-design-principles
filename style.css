@@ -54,11 +54,6 @@ h3 a:not(:hover), nav a:not(:hover) {
   text-decoration: none;
 }
 
-div + h3 {
-  border-top: 1px dashed;
-  padding-top: 1.4rem;
-}
-
 :focus:not([tabindex="-1"]) {
   outline: 2px solid #80b3ff;
 }
@@ -99,6 +94,11 @@ h2 {
 
 h3 {
   font-size: 1.5rem;
+}
+
+div + h3 {
+  border-top: 1px dashed;
+  padding-top: 1.4rem;
 }
 
 h4 {
