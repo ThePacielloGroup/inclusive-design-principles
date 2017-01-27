@@ -70,6 +70,8 @@ h1, h2, h3, h4 {
 
 h1 {
   font-size: 3rem;
+  background: url(hands.svg) no-repeat right;
+  background-size: auto 100%;
 }
 
 h2 {
