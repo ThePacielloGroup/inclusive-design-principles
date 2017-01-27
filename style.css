@@ -34,6 +34,11 @@ header p {
   margin-top: 0;
 }
 
+header img {
+  height: 0.85rem;
+  width: auto;
+}
+
 * + * {
   margin-top: 1.4rem;
 }
@@ -44,6 +49,10 @@ body, br, dt, dd, th, td, option, [hidden] + *, li + li {
 
 p + p {
   margin-top: 0.75rem;
+}
+
+header p + p {
+  margin-top: 0;
 }
 
 a {
