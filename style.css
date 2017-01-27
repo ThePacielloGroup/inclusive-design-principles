@@ -121,6 +121,11 @@ h3 {
   font-size: 1.5rem;
 }
 
+.intro ~ .intro {
+  border-top: 1px dashed;
+  padding-top: 1.4rem;
+}
+
 h4 {
   font-size: 1.125rem;
 }
