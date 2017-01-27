@@ -50,7 +50,7 @@ a {
   color: #2c5aa0;
 }
 
-h4 a:not(:hover), nav a:not(:hover) {
+h3 a:not(:hover), nav a:not(:hover) {
   text-decoration: none;
 }
 
