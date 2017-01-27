@@ -50,7 +50,7 @@ a {
   color: #2c5aa0;
 }
 
-[href*="#"]:not(:hover) {
+[href*="#"] {
   text-decoration: none;
 }
 
