@@ -18,7 +18,7 @@ header > div, main {
   background-color: #fefefe;
   max-width: 30rem;
   margin: 0 auto;
-  padding: 1.5rem;
+  padding: 1.4rem;
 }
 
 header > div {
@@ -52,6 +52,11 @@ a {
 
 h3 a:not(:hover), nav a:not(:hover) {
   text-decoration: none;
+}
+
+div + h3 {
+  border-top: 1px dashed;
+  padding-top: 1.4rem;
 }
 
 :focus:not([tabindex="-1"]) {
