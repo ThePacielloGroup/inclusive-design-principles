@@ -50,12 +50,8 @@ a {
   color: #2c5aa0;
 }
 
-[href*="#"] {
+h4 a:not(:hover), nav a:not(:hover) {
   text-decoration: none;
-}
-
-p [href*="#"] {
-  text-decoration: underline;
 }
 
 :focus:not([tabindex="-1"]) {
