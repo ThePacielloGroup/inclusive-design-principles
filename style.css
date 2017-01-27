@@ -96,9 +96,12 @@ h3 {
   font-size: 1.5rem;
 }
 
-div + h3 {
-  border-top: 1px dashed;
-  padding-top: 1.4rem;
+.intro {
+  display: flex;
+}
+
+.intro h3 {
+  order: 1;
 }
 
 h4 {
