@@ -113,6 +113,7 @@ main ul li + li {
 nav {
   text-align: right;
   background: url(line.svg) repeat-x center;
+  font-size: 0.8rem;
 }
 
 nav ul {
