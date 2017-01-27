@@ -174,3 +174,8 @@ h4 button {
 [aria-expanded="true"] i::before {
   content: '\2013';
 }
+
+footer {
+  font-size: 0.75rem;
+  text-align: right;
+}
