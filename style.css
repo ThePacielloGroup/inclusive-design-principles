@@ -102,6 +102,12 @@ h3 {
 
 .intro h3 {
   order: 1;
+  margin-left: 0.5rem;
+}
+
+.intro a {
+  margin-top: 0;
+  font-size: 1.5rem;
 }
 
 h4 {
