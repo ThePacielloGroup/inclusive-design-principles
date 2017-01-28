@@ -81,6 +81,7 @@ h1 {
   font-size: 3rem;
   background: url(hands_feet.svg) no-repeat right;
   background-size: auto 85%;
+  word-spacing: 30rem;
 }
 
 @media (max-width: 550px) {
