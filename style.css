@@ -169,6 +169,7 @@ nav[aria-label="principles"] {
 
 nav[aria-label="principles"] ul {
   display: flex;
+  flex-wrap: wrap;
 }
 
 nav[aria-label="principles"] li {
