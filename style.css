@@ -142,24 +142,37 @@ main ul li + li {
   padding-top: 0.75rem;
 }
 
-nav {
+nav[aria-label="page"] {
   text-align: right;
   background: url(line.svg) repeat-x center;
   font-size: 0.8rem;
 }
 
-nav ul {
+nav[aria-label="page"] ul {
   padding: 0.5rem 1rem 0.5rem 0.5rem;
   display: inline-block;
+  text-transform: uppercase;
   background-color: #fefefe;
+  line-height: 1;
 }
 
 nav li {
   display: inline-block;
   font-family: Miriam Libre, serif;
-  text-transform: uppercase;
-  line-height: 1;
   padding-left: 0.5rem;
+}
+
+nav[aria-label="principles"] {
+  padding: 1.4rem;
+  border: 1px dashed;
+}
+
+nav[aria-label="principles"] ul {
+  display: flex;
+}
+
+nav[aria-label="principles"] li {
+  width: 50%;
 }
 
 h4 button {
