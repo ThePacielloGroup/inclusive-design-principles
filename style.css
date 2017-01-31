@@ -173,6 +173,9 @@ nav[aria-label="principles"] ul {
 
 nav[aria-label="principles"] li {
   width: 50%;
+  margin: 0;
+  padding: 0;
+  border: 0;
 }
 
 h4 button {
