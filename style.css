@@ -173,7 +173,7 @@ nav[aria-label="principles"] {
 nav[aria-label="principles"] ul {
   display: flex;
   flex-wrap: wrap;
-  padding: 0;
+  padding: 0.7rem;
   margin: 0;
 }
 
@@ -181,7 +181,6 @@ nav[aria-label="principles"] li {
   padding: 0.35rem;
   width: 50%;
   margin: 0;
-  padding: 0;
   border: 0;
 }
 
