@@ -167,7 +167,7 @@ nav li {
 }
 
 nav[aria-label="principles"] {
-  border: 1px dashed;
+  background: #111;
 }
 
 nav[aria-label="principles"] ul {
@@ -178,10 +178,20 @@ nav[aria-label="principles"] ul {
 }
 
 nav[aria-label="principles"] li {
-  padding: 0.35rem;
+  padding: 0.7rem;
   width: 50%;
   margin: 0;
   border: 0;
+}
+
+nav[aria-label="principles"] a {
+  background: #fff;
+  outline: 0.25rem solid #fff;
+}
+
+nav[aria-label="principles"] a:focus {
+  outline: 0.25rem solid #fff;
+  text-decoration: underline;
 }
 
 h4 button {
