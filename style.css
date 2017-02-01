@@ -187,6 +187,7 @@ nav[aria-label="principles"] li {
 nav[aria-label="principles"] a {
   background: #fff;
   outline: 0.25rem solid #fff;
+  border: 2px solid #fff;
 }
 
 nav[aria-label="principles"] a:focus {
