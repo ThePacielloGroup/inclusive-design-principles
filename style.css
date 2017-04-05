@@ -9,14 +9,14 @@
 
 html {
   font-family: Asap, sans-serif;
-  font-size: calc(1em + 1vw);
+  font-size: calc(1em + 0.5vw);
   color: #111;
   line-height: 1.4;
 }
 
 header > div, main {
   background-color: #fefefe;
-  max-width: 30rem;
+  max-width: 35rem;
   margin: 0 auto;
   padding: 1.4rem;
 }
