@@ -1,0 +1,58 @@
+*, *::before, *::after {
+  font-family: inherit;
+  color: inherit;
+  margin: 0;
+  padding: 0;
+  font-size: inherit;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Asap, sans-serif;
+  font-size: calc(1em + 1vw);
+  color: #111;
+  line-height: 1.4;
+}
+
+* + * {
+  margin-top: 1.4rem;
+}
+
+body, br, dt, dd, th, td, option, [hidden] + *, li + li {
+  margin-top: 0;
+}
+
+p + p {
+  margin-top: 0.75rem;
+}
+
+a {
+  color: #2c5aa0;
+}
+
+:focus:not([tabindex="-1"]) {
+  outline: 2px solid #80b3ff;
+}
+
+/* fix for IE :( */
+div:not([tabindex]):focus {
+  outline: none;
+}
+
+h1, h2, h3, h4 {
+  font-family: Miriam Libre, serif;
+  line-height: 1.1;
+}
+
+main ul {
+  padding-left: 2em;
+  font-size: 0.75rem;
+}
+
+[aria-expanded="false"] i::before {
+  content: '+';
+}
+
+[aria-expanded="true"] i::before {
+  content: '\2013';
+}

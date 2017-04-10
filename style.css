@@ -78,7 +78,7 @@ h1, h2, h3, h4 {
 }
 
 strong {
-  font-family: Miriam Libre, serif; 
+  font-family: Miriam Libre, serif;
 }
 
 h1 {
@@ -86,6 +86,12 @@ h1 {
   background: url(hands_feet.svg) no-repeat right;
   background-size: auto 85%;
   word-spacing: 30rem;
+}
+
+.principle-container + .principle-container {
+  margin-top: 1.4rem;
+  padding-top: 1.4rem;
+  border-top: 1px dashed;
 }
 
 @media (max-width: 550px) {
@@ -110,10 +116,28 @@ h3 {
   font-size: 2rem;
 }
 
-.intro {
+.intro, .with-button {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
+  justify-content: space-between;
   line-height: 1;
+}
+
+.with-button {
+  align-items: center;
+}
+
+.intro button, .with-button button {
+  margin: 0;
+  border: 0;
+  background: 0;
+  color: #2c5aa0;
+}
+
+.with-button button {
+  font-size: 0.85rem;
+  text-decoration: underline;
+  text-transform: uppercase;
 }
 
 .intro a {
@@ -190,22 +214,17 @@ nav[aria-label="principles"] a:focus {
   text-decoration: underline;
 }
 
-h4 button {
-  border: 0;
-  padding: 0;
-  background: transparent;
-}
-
 button i::before {
   color: #2c5aa0;
 }
 
-[aria-expanded="false"] i::before {
-  content: '+';
+[data-expands] svg {
+  height: 2rem;
+  width: 2rem;
 }
 
-[aria-expanded="true"] i::before {
-  content: '\2013';
+[data-expands][aria-expanded="true"] .up-strut {
+  display: none;
 }
 
 footer {
