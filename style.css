@@ -116,11 +116,6 @@ h3 {
   line-height: 1;
 }
 
-.intro h3 {
-  order: 1;
-  margin-left: 0.25rem;
-}
-
 .intro a {
   margin-top: 0;
   font-size: 1.5rem;
