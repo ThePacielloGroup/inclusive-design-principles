@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link href="https://fonts.googleapis.com/css?family=Miriam+Libre:700&text=ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz%26" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Asap:400,400i&subset=latin" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Inclusive Design Principles</title>
+  </head>
+  <body>
+    <header>
+      <nav aria-label="page">
+        <ul>
+          <li><a href="#introduction">Introduction</a></li>
+          <li><a href="#principles">The Principles</a></li>
+        </ul>
+      </nav>
+      <div>
+        <h1>
+          Inclusive
+          Design
+          Principles
+        </h1>
+        <p>Contributors: Henny Swan, Ian Pouncey, Heydon Pickering, Léonie Watson</p>
+        <p><a href="https://www.paciellogroup.com/"><img src="tpg.svg" alt="In association with The Paciello Group"></a></p>
+      </div>
+    </header>
+    <main>
+      <h2 id="introduction">Introduction</h2>
+      <p>Inclusive design is the practice of making products and interfaces that can be used and enjoyed by different people in different situations. When employing inclusive interface design, you provide better experiences for readers, customers, players and collaborators. The purpose of this document is to set out the core principles of inclusive interface design.</p>
+      <p>The inclusive design approach to accessibility is intersectional. It appreciates that the abilities and disabilities of any one person are not necessarily permanent or stable. They can be multiple, intermittent, and dependent on changing circumstances. It addresses the relationships between social, environmental, physical, and technological conditions.</p>
+      <p>Inclusive design recognizes that people differ in their adaptations to any of these conditions. An inclusive interface therefore has to be flexible, and sometimes multifaceted. It is through flexibility that robustness is achieved. A robust interface is less likely to fail anyone, whoever they are.</p>
+      <h2 id="principles">The Principles</h2>
+      <div class="intro">
+        <h3 id="put-people-first">Put people first</h3>
+        <a href="#put-people-first" aria-label="put people first permalink">&#x279c;</a>
+      </div>
+      <p><em>Technologies, workflows, and processes should be put in service of people, including end-users and contributors.</em></p>
+      <h4><button data-expands="people-first-desc" aria-expanded="false"><i class="icon" aria-hidden="true"></i> Full description</button></h4>
+      <div id="people-first-desc" class="smaller" style="display: none">
+        <p>The W3C <a href="https://www.w3.org/TR/html-design-principles/#priority-of-constituencies">priority of constituencies</a> implores you to prioritize the needs of users over your comfort as a developer. In pursuit of the maintainability and extensibility of your interface you should never sacrifice accessibility or usability. The tools you employ should subscribe to the same philosophy.</p>
+      </div>
+      <h4><button data-expands="people-first-egs" aria-expanded="false"><i class="icon" aria-hidden="true"></i> Examples</button></h4>
+      <div id="people-first-egs" style="display: none">
+        <ul class="examples">
+          <li><strong>Choice of CMS:</strong> In choosing a Content Management System, you only shortlist systems which support and encourage accessible front-end output, and incorporate accessible content management tools.</li>
+          <li><strong>Internal communications:</strong> You ensure that communications do not marginalize anyone involved on your project and in your team. Supplement inaccessible media such as data visualizations with descriptions for those that can't see or easily understand them.</li>
+          <li><strong>Your pattern library:</strong> You do not allow any components that do not meet accessibility standards to be included in your pattern library. Proposed components are vetted using accessibility testing, preferably with user testers as well as automated tools.</li>
+        </ul>
+      </div>
+      <div class="intro">
+        <h3 id="define-purpose">Define purpose</h3>
+        <a href="#define-purpose" aria-label="define purpose permalink">&#x279c;</a>
+      </div>
+      <p><em>The purpose and intended outcomes of a feature should be defined as the basis for following other design principles, particularly <a href="#aim-for-equivalence">equivalence</a>.</em></p>
+      <h4><button data-expands="define-purpose-desc" aria-expanded="false"><i class="icon" aria-hidden="true"></i> Full description</button></h4>
+      <div id="define-purpose-desc" class="smaller" style="display: none">
+        <p>Inclusive design is not concerned with ornamentation. Every design decision should be informed by the needs and goals of users, as established by research and consensus. Features without a user-driven mandate should not be included at all, and those that are should address users' needs as simply and directly as possible.</p>
+      </div>
+      <h4><button data-expands="define-purpose-egs" aria-expanded="false"><i class="icon" aria-hidden="true"></i> Examples</button></h4>
+      <div id="define-purpose-egs" style="display: none">
+        <ul class="examples">
+          <li><strong>The author image:</strong> An image of an author might have the purpose of identification or for use in promotional material. Depending on the surrounding content the image could be considered decorative or content. If merely decorative, it has nothing of value to offer non-visually and can be hidden to assistive technologies.</li>
+        </ul>
+      </div>
+      <div class="intro">
+        <h3 id="aim-for-equivalence">Aim for equivalence</h3>
+        <a href="#aim-for-equivalence" aria-label="aim for equivalence permalink">&#x279c;</a>
+      </div>
+      <p><em>Users may consume an interface in different ways, but the value they glean from the interface should be similar.</em></p>
+      <h4><button data-expands="equivalence-desc" aria-expanded="false"><i class="icon" aria-hidden="true"></i> Full description</button></h4>
+      <div id="equivalence-desc" class="smaller" style="display: none">
+        <p>Interfaces are provided for different purposes, such as entertainment, information, and for completing tasks. Although users take different approaches and use different tools to read and operate interfaces, what the interface offers each user should be comparable in terms of both quantity and quality. In pursuit of this end, some editorial creativity may be required to translate between mediums — such as audio versus visual.</p>
+      </div>
+      <h4><button data-expands="equivalence-egs" aria-expanded="false"><i class="icon" aria-hidden="true"></i> Examples</button></h4>
+      <div id="equivalence-egs" style="display: none">
+        <ul class="examples">
+          <li><strong>Judicious audio description:</strong> For an audio description of a televised drama, you only include information pertinent to the narrative. Describing everything in frame would be as distracting non-visually as examining it all visually.</li>
+          <li><strong>The visual pun:</strong> An image serves as a visual pun, with the hope of amusing your audience. Describing it literally makes it unfunny so an equivalent joke is provided as the image's alternative text.</li>
+        </ul>
+      </div>
+      <div class="intro">
+        <h3 id="consider-circumstances">Consider circumstances</h3>
+        <a href="#consider-circumstances" aria-label="consider circumstances permalink">&#x279c;</a>
+      </div>
+      <p><em>People use your interface through shifting situations. Make sure circumstances do not prohibit a valuable experience.</em></p>
+      <h4><button data-expands="consider-circumstances-desc" aria-expanded="false"><i class="icon" aria-hidden="true"></i> Full description</button></h4>
+      <div id="consider-circumstances-desc" class="smaller" style="display: none">
+        <p>Your audience will include first time users, established users, hurried users, users at work, users at home. All of these circumstances can have an impact. For those who already find interaction challenging, such as those with certain disabilities, this impact may make use impossible. Make provisions to mitigate the impact of circumstantial conditions.</p>
+      </div>
+      <h4><button data-expands="consider-circumstances-egs" aria-expanded="false"><i class="icon" aria-hidden="true"></i> Examples</button></h4>
+      <div id="consider-circumstances-egs" style="display: none">
+        <ul class="examples">
+          <li><strong>Keyboard shortcut tip:</strong> A first-time user will not be aware of the custom keyboard shortcuts you have implemented for them. You provide this information as a "tip" which can be dismissed permanently, reducing clutter on subsequent visits.</li>
+          <li><strong>Captions on the go:</strong> You're aware that the video content you are providing will be consumed on mobile devices, which means in public spaces. For smaller viewports, sound is switched off and captions activated by default. Users can consume the content without being antisocial.</li>
+        </ul>
+      </div>     
+      <div class="intro">
+        <h3 id="harness-convention">Harness convention</h3>
+        <a href="#harness-convention" aria-label="harness convention permalink">&#x279c;</a>
+      </div>
+      <p><em>Reveal functionality in familiar and expected ways to accelerate people's understanding of your interface.</em></p>
+      <h4><button data-expands="harness-convention-desc" aria-expanded="false"><i class="icon" aria-hidden="true"></i> Full description</button></h4>
+      <div id="harness-convention-desc" class="smaller" style="display: none">
+        <p>Usable interfaces are founded on conventions; interface patterns which appear and work in ways the user has experienced before, both within and without your application. Take conventions and make them your own, rather than breaking with conventions entirely.</p>
+      </div>
+      <h4><button data-expands="harness-convention-egs" aria-expanded="false"><i class="icon" aria-hidden="true"></i> Examples</button></h4>
+      <div id="harness-convention-egs" style="display: none">
+        <ul class="examples">
+          <li><strong>The navigation bar:</strong> Conventionally, site navigation takes the form of a horizontal list of links placed at the top of the web page. You adopt this convention, enhancing it with a creatively attractive "current page" indicator.</li>
+          <li><strong>Label configuration:</strong> You resist the temptation to appear innovative by placing your input labels below and to the right of your inputs. There's too much danger that they will be missed or associated with the wrong input.</li>
+        </ul>
+      </div>
+      <div class="intro">
+        <h3 id="be-consistent">Be consistent</h3>
+        <a href="#be-consistent" aria-label="be consistent permalink">&#x279c;</a>
+      </div>
+      <p><em>Offer the same information, functionality, and behavior in the same way throughout your interface.</em></p>
+      <h4><button data-expands="be-consistent-desc" aria-expanded="false"><i class="icon" aria-hidden="true"></i> Full description</button></h4>
+      <div id="be-consistent-desc" class="smaller" style="display: none">
+        <p>Form should follow function. Where form diverges between instances of the same functionality, an unnecessary burden on cognition is introduced. Maintain a pattern library where each reusable design pattern solves a discrete problem.</p>
+      </div>
+      <h4><button data-expands="be-consistent-egs" aria-expanded="false"><i class="icon" aria-hidden="true"></i> Examples</button></h4>
+      <div id="be-consistent-egs" style="display: none">
+        <ul class="examples">
+          <li><strong>Browsing products:</strong> Teasers for products are listed in many places on your website, including in category pages and search result pages. In each case, the same product information is provided in the same order, using the same markup and the same visual orientation.</li>
+          <li><strong>Familiar language:</strong> Different versions of your application for different platforms use the same language, especially for controls, headings and field labels.</li>
+        </ul>
+      </div>
+      <div class="intro">
+        <h3 id="support-control">Support control</h3>
+        <a href="#support-control" aria-label="support control permalink">&#x279c;</a>
+      </div>
+      <p><em>Ensure users are able to customise the interface where needed to improve their experience where needed.</em></p>      
+      <h4><button data-expands="support-control-desc" aria-expanded="false"><i class="icon" aria-hidden="true"></i> Full description</button></h4>
+      <div id="support-control-desc" class="smaller" style="display: none">
+        <p>Do not suppress or disable the ability to change standard browser and platform settings such as font size, magnification, and contrast. In addition, provide custom settings to tailor your interface where appropriate.</p>
+      </div>
+      <h4><button data-expands="support-control-egs" aria-expanded="false"><i class="icon" aria-hidden="true"></i> Examples</button></h4>
+      <div id="support-control-egs" style="display: none">
+        <ul class="examples">
+          <li><strong>Stop things moving:</strong> You provide animated illustrations by default. For those that find the animations distracting or experience vestibular issues, provide a setting to turn the animations off — preferably in such a way that the choice is remembered between sessions.</li>
+          <li><strong>Allow pinch zoom:</strong> There are many reasons why a user may want to operate the "pinch zoom" gesture on their touch device. Make sure it is not suppressed, and that the content does not get obscured when it is put to use.</li>
+        </ul>
+      </div>
+       <div class="intro">
+        <h3 id="offer-choice">Offer choice</h3>
+        <a href="#offer-choice" aria-label="offer choice permalink">&#x279c;</a>
+      </div>     
+      <p><em>For complex or nonstandard tasks, provide different ways to complete them. Different people are comfortable with different approaches.</em></p>
+      <h4><button data-expands="offer-choice-desc" aria-expanded="false"><i class="icon" aria-hidden="true"></i> Full description</button></h4>
+      <div id="offer-choice-desc" class="smaller" style="display: none">
+        <p>There is no one "right" way to do anything. So, when you are breaking with interaction conventions, it's important users are offered alternative or fallback methods for getting things done. Where appropriate, this should include choices over the way content is displayed and can be read.</p>
+      </div>
+      <h4><button data-expands="offer-choice-egs" aria-expanded="false"><i class="icon" aria-hidden="true"></i> Examples</button></h4>      
+      <div id="offer-choice-egs" style="display: none">
+        <ul class="examples">
+          <li><strong>Swipe-to-delete alternative:</strong> You provide a "swipe to delete" action/gesture for items available in a list configuration. Not confident that all users will be aware of this implementation or able to use it effectively, you also provide a supplementary "delete" button at each item's permalink.</li>
+          <li><strong>Grids versus lists:</strong> Aware that some users will find scanning a single-file list of items more comfortable than a four coulmn grid, you offer the ability to switch between the two display modes.</li>
+          <li><strong>Data tables for all:</strong> You must provide a data table as an alternative for a complex visualisation to blind users. Instead of only providing it non-visually, you make it available to all. This way, anyone struggling with the complexity of the data has two ways of viewing it.</li>
+        </ul>
+      </div>      
+      <div class="intro">
+        <h3 id="prioritize">Prioritise important or frequent tasks</h3>
+        <a href="#prioritize" aria-label="prioritize important or frequent tasks permalink">&#x279c;</a>
+      </div>
+      <p><em>Bring features which are integral to the understanding and operation of the interface to the forefront.</em></p>
+      <h4><button data-expands="prioritize-desc" aria-expanded="false"><i class="icon" aria-hidden="true"></i> Full description</button></h4>
+      <div id="prioritize-desc" class="smaller" style="display: none">
+        <p>Rich interfaces can be difficult to apprehend where key features are not exposed clearly and early in the user's journey. Supplementary features are meaningless until the core purpose of the application has been explored though exposition and usage.</p>
+      </div>
+      <h4><button data-expands="prioritize-egs" aria-expanded="false"><i class="icon" aria-hidden="true"></i> Examples</button></h4>      
+      <div id="prioritize-egs" style="display: none">
+        <ul class="examples">
+          <li><strong>Email clients are for email:</strong> Your email application is principally for writing and reading email. The "compose" button is therefore present on all screens, and first in tab order by keyboard. Your inbox is first in a list of screens which include "spam" and "settings". It appears on login by default.</li>
+        </ul>
+      </div>    
+      <div class="intro">
+        <h3 id="keep-focused">Keep focused</h3>
+        <a href="#keep-focused" aria-label="keep focused permalink">&#x279c;</a>
+      </div>
+      <p><em>Provide context-specific information and functionality in a clear and timely fashion.</em></p>
+      <h4><button data-expands="keep-focused-desc" aria-expanded="false"><i class="icon" aria-hidden="true"></i> Full description</button></h4>
+      <div id="keep-focused-desc" class="smaller" style="display: none">
+        <p>Interfaces may provide lots of information and functionality simultaneously. However, people using interfaces should be able to focus on one thing at a time. It is while a user is focused on a particular task that information which may assist them in completing that task should be provided. This information should be clearly associated with the functionality at hand.</p>
+      </div>
+      <h4><button data-expands="keep-focused-egs" aria-expanded="false"><i class="icon" aria-hidden="true"></i> Examples</button></h4>      
+      <div id="keep-focused-egs" style="display: none">
+        <ul class="examples">
+          <li><strong>A stepped form:</strong> Your have a form which requires the entry of highly complex information. As a single page with multiple fields, it is intimidating and difficult to traverse. By dividing the form into steps, with one field per page, the problem is broken down there's more room to focus assistive information on the field at hand.</li>
+        </ul>
+      </div>          
+      <div class="intro">
+        <h3 id="add-value">Add value</h3>
+        <a href="#add-value" aria-label="add value permalink">&#x279c;</a>
+      </div>
+      <p><em>Only include features that add value. Features that do not add value only diminish simplicity.</em></p>
+      <h4><button data-expands="add-value-desc" aria-expanded="false"><i class="icon" aria-hidden="true"></i> Full description</button></h4>
+      <div id="add-value-desc" class="smaller" style="display: none">
+        <p>The more complex an interface, the more difficult it is to learn and use. Make sure that complexity and utility are proportionate. Only add complexity where it adds something useful and does not obstruct other, more important, functions.</p>
+      </div>
+      <h4><button data-expands="add-value-egs" aria-expanded="false"><i class="icon" aria-hidden="true"></i> Examples</button></h4>      
+      <div id="add-value-egs" style="display: none">
+        <ul class="examples">
+          <li><strong>Search by voice:</strong> Some devices support voice recognition that can be incorporated into search functionality. Since many users, including those impeded by disability, benefit from voice recognition, it is a worth addition. It can also be incorporated unobtrusively via a supplemental button control.</li>
+          <li><strong>Limited tooltips:</strong> You consider the use of the HTML title attribute to provide information about controls. Considering titles are not exposed to keyboard users and cannot be styled, you resolve to provide clear inline labels instead.</li>
+        </ul>
+      </div>
+    </main>
+    <footer>
+      <p class="project-foot">
+        <strong>Inclusive Design Principles</strong><br>
+        <span>A <img src="tpg.svg" alt="Paciello Group"> Project</span>
+      </p>
+      <p>
+        &copy; The Paciello Group. All Rights Reserved.<br>
+        For general enquiries, contact us on info@paciellogroup.com
+      </p>
+    </footer>
+    <script>
+      (function() {
+        var toggles = document.querySelectorAll('[data-expands]');
+        [].forEach.call(toggles, function(toggle) {
+          toggle.addEventListener('click', function() {
+            var expanded = (this.getAttribute('aria-expanded') === 'true');
+            var target = document.getElementById(toggle.getAttribute('data-expands'));
+            if (expanded) {
+              this.setAttribute('aria-expanded', 'false');
+              target.style.display = 'none';
+            } else {
+              this.setAttribute('aria-expanded', 'true');
+              target.style.display = 'block';
+            }
+          });
+        });
+      })();
+    </script>
+  </body>
+</html>
