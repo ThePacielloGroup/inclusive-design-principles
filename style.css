@@ -47,6 +47,10 @@ body, br, dt, dd, th, td, option, [hidden] + *, li + li {
   margin-top: 0;
 }
 
+[hidden] {
+  display: none;
+}
+
 p + p {
   margin-top: 0.75rem;
 }
@@ -57,10 +61,6 @@ header p + p {
 
 a {
   color: #2c5aa0;
-}
-
-.intro a:not(:hover), nav a:not(:hover) {
-  text-decoration: none;
 }
 
 :focus:not([tabindex="-1"]) {
@@ -114,6 +114,12 @@ h2 {
 
 h3 {
   font-size: 2rem;
+}
+
+h3 a img {
+  width: 0.85em;
+  height: auto;
+  vertical-align: super;
 }
 
 .intro, .with-button {

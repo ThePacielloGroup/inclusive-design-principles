@@ -12,6 +12,7 @@
 
   var toggles = document.querySelectorAll('[data-expands]');
   [].forEach.call(toggles, function(toggle) {
+    toggle.hidden = false;
     toggle.setAttribute('aria-expanded', 'false');
     var target = document.getElementById(toggle.getAttribute('data-expands'));
     if (target) {
@@ -28,6 +29,7 @@
   });
 
   var expandAll = document.querySelector('[data-expandAll]');
+  expandAll.hidden = false;
   expandAll.addEventListener('click', function() {
     var expanded = this.textContent === 'expand all' ? false : true;
     if (expanded) {
@@ -44,5 +46,19 @@
       this.textContent = 'collapse all';
     }
   });
+
+  function openSection() {
+    var hash = window.location.hash || false;
+    if (hash) {
+      var id = hash.substring(1);
+      var sectionToggle = document.querySelector('[data-expands='+id+'-content]');
+      if (sectionToggle.getAttribute('aria-expanded') === 'false') {
+        sectionToggle.click();
+      }
+    }
+  }
+
+  window.onload = openSection;
+  window.onhashchange = openSection;
 
 })();
