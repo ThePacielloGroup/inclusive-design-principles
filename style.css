@@ -113,7 +113,7 @@ h2 {
 }
 
 h3 {
-  font-size: 2rem;
+  font-size: 1.75rem;
 }
 
 h3 a img {
@@ -122,9 +122,19 @@ h3 a img {
   vertical-align: super;
 }
 
+p [src*="link.svg"] {
+  width: 1em;
+  height: auto;
+}
+
+.principle-name {
+  font-family: Miriam Libre, serif;
+  color: #111;
+}
+
 .intro, .with-button {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   justify-content: space-between;
   line-height: 1;
 }
