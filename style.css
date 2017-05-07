@@ -83,9 +83,14 @@ strong {
 
 h1 {
   font-size: 3rem;
-  background: url(hands_feet.svg) no-repeat right;
   background-size: auto 85%;
   word-spacing: 30rem;
+}
+
+.title-and-illustration img {
+  float: right;
+  width: 30%;
+  height: auto;
 }
 
 .principle-container + .principle-container {
