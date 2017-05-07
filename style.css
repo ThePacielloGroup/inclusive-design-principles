@@ -94,6 +94,7 @@ h1 {
 .title-and-illustration img {
   width: 50rem;
   height: auto;
+  margin-top: 0;
 }
 
 .principle-container + .principle-container {
