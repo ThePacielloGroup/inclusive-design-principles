@@ -97,6 +97,7 @@ h1 {
   margin-top: 0.75em;
   position: absolute;
   right: 0;
+  top: 0;
 }
 
 .principle-container + .principle-container {
