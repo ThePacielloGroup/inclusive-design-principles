@@ -88,13 +88,15 @@ h1 {
 }
 
 .title-and-illustration {
-  display: flex;
+  position: relative;
 }
 
 .title-and-illustration img {
-  width: 60rem;
+  width: 40%;
   height: auto;
-  margin-top: 0;
+  margin-top: 0.75em;
+  position: absolute;
+  right: 0;
 }
 
 .principle-container + .principle-container {
