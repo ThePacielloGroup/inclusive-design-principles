@@ -111,6 +111,13 @@ h1 {
  }
 }
 
+@media (max-width: 370px) {
+  .title-and-illustration img {
+    width: 35%;
+    margin-top: 1.25rem; 
+  }
+}
+
 h2 {
   font-size: 1.125rem;
   text-transform: uppercase;
