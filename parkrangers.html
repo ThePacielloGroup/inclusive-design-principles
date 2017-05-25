@@ -32,9 +32,7 @@
     </header>
     <main>
       <h2 id="introduction">Introduction</h2>
-      <p>Inclusive design is the practice of making products and interfaces that can be used and enjoyed by different people in different situations. When employing inclusive interface design, you provide better experiences for readers, customers, players and collaborators. The purpose of this document is to set out the core principles of inclusive interface design.</p>
-      <p>The inclusive design approach to accessibility is intersectional. It appreciates that the abilities and disabilities of any one person are not necessarily permanent or stable. They can be multiple, intermittent, and dependent on changing circumstances. It addresses the relationships between social, environmental, physical, and technological conditions.</p>
-      <p>Inclusive design recognizes that people differ in their adaptations to any of these conditions. An inclusive interface therefore has to be flexible, and sometimes multifaceted. It is through flexibility that robustness is achieved. A robust interface is less likely to fail anyone, whoever they are.</p>
+      <p>[TODO]</p>
       <h2 id="principles" class="with-button">
         <span>The Principles</span>
         <button data-expandAll hidden>expand all</button>
@@ -52,29 +50,11 @@
             </svg>
           </button>
         </div>
-        <div id="put-people-first-content" class="principle-content">
-          <p><em>Technologies, workflows, and processes should be put in service of people, including end-users and contributors.</em></p>
-          <h4>Full description</h4>
-          <p>The W3C <a href="https://www.w3.org/TR/html-design-principles/#priority-of-constituencies">priority of constituencies</a> implores you to prioritize the needs of users over your comfort as a developer. In pursuit of the maintainability and extensibility of your interface you should never sacrifice accessibility or usability. The tools you employ should subscribe to the same philosophy.</p>
-          <h4>Examples</h4>
-          <ul class="examples">
-            <li><strong>Choice of CMS:</strong> In choosing a Content Management System, you only shortlist systems which support and encourage accessible front-end output, and incorporate accessible content management tools.</li>
-            <li><strong>Internal communications:</strong> You ensure that communications do not marginalize anyone involved on your project and in your team. Supplement inaccessible media such as data visualizations with descriptions for those that can't see or easily understand them.</li>
-            <li><strong>Your pattern library:</strong> You do not allow any components that do not meet accessibility standards to be included in your pattern library. Proposed components are vetted using accessibility testing, preferably with user testers as well as automated tools.</li>
-          </ul>
-          <p>
-            <a href="#put-people-first">
-              <img src="images/link.svg" alt="">
-              Link to <strong class="principle-name">Put people first</strong>
-            </a>
-          </p>
-        </div>
       </div>
       <div class="principle-container">
         <div class="intro">
-          <h3 id="define-purpose">Define purpose
-          </h3>
-          <button data-expands="define-purpose-content" aria-label="open section" hidden>
+          <h3 id="provide-a-comparable-experience">Provide a comparable experience</h3>
+          <button data-expands="provide-a-comparable-experience-content" aria-label="open section" hidden>
             <svg height="20mm" width="20mm" viewBox="0 0 70.866142 70.866141">
              <g transform="translate(0 -981.5)">
               <rect style="stroke-width:0;fill:currentColor" ry="5" height="60" width="9.8985" y="987.36" x="30.051" class="up-strut" />
@@ -83,27 +63,29 @@
             </svg>
           </button>
         </div>
-        <div id="define-purpose-content" class="principle-content">
-          <p><em>The purpose and intended outcomes of a feature should be defined as the basis for following other design principles, particularly <a href="#aim-for-equivalence">equivalence</a>.</em></p>
+        <div id="provide-a-comparable-experience-content" class="principle-content">
+          <p><em>Ensure your interface provides a comparable experience for all users, so people can accomplish tasks in a way that suits their needs without undermining the quality of the content.</em></p>
           <h4>Full description</h4>
-          <p>Inclusive design is not concerned with ornamentation. Every design decision should be informed by the needs and goals of users, as established by research and consensus. Features without a user-driven mandate should not be included at all, and those that are should address users' needs as simply and directly as possible.</p>
+          <p>Whether out of circumstance, choice, or context people are diverse. As people use different approaches and tools to read and operate interfaces, what the interface offers each user should be comparable in both value and quality.</p>
           <h4>Examples</h4>
           <ul class="examples">
-            <li><strong>The author image:</strong> An image of an author might have the purpose of identification or for use in promotional material. Depending on the surrounding content the image could be considered decorative or content. If merely decorative, it has nothing of value to offer non-visually and can be hidden to assistive technologies.</li>
+            <li><strong>Editorial for alternatives:</strong> Having a basic alternative, whether it's alt text, a transcript, audio description, or sign language, makes the content accessible but to be equivalent it needs to capture the essence of the original.</li>
+            <li><strong>Ergonomic features:</strong> Providing synchronized closed captions makes your video accessible. But making them customizable, color coded, and repositionable provides a more comparable experience.</li>
+            <li><strong>Notifications:</strong> Notifications that appear in an interface are visually obvious but require proactive discovery by screen reader users. A comparable experience for blind users, can be achieved by using a live region. The notification then requires no explicit action on the part of the user.</li>
           </ul>
           <p>
-            <a href="#define-purpose">
+            <a href="#provide-a-comparable-experience">
               <img src="images/link.svg" alt="">
-              Link to <strong class="principle-name">Define purpose</strong>
+              Link to <strong class="principle-name">Provide a comparable experience</strong>
             </a>
           </p>
         </div>
       </div>
       <div class="principle-container">
         <div class="intro">
-          <h3 id="aim-for-equivalence">Aim for equivalence
+          <h3 id="consider-circumstance">Consider circumstance
           </h3>
-          <button data-expands="aim-for-equivalence-content" aria-label="open section" hidden>
+          <button data-expands="consider-circumstance-content" aria-label="open section" hidden>
             <svg height="20mm" width="20mm" viewBox="0 0 70.866142 70.866141">
              <g transform="translate(0 -981.5)">
               <rect style="stroke-width:0;fill:currentColor" ry="5" height="60" width="9.8985" y="987.36" x="30.051" class="up-strut" />
@@ -112,79 +94,20 @@
             </svg>
           </button>
         </div>
-        <div id="aim-for-equivalence-content" class="principle-content">
-          <p><em>Users may consume an interface in different ways, but the value they glean from the interface should be similar.</em></p>
+        <div id="consider-circumstance-content" class="principle-content">
+          <p><em>People use your interface in different situations. Make sure your interface delivers a valuable experience to people regardless of their circumstances.</em></p>
           <h4>Full description</h4>
-          <p>Interfaces are provided for different purposes, such as entertainment, information, and for completing tasks. Although users take different approaches and use different tools to read and operate interfaces, what the interface offers each user should be comparable in terms of both quantity and quality. In pursuit of this end, some editorial creativity may be required to translate between mediums — such as audio versus visual.</p>
+          <p>Your audience will include first time users, established users, users at work, users at home, users on the move, and users under pressure. All of these circumstances can have an impact. For those who already find interaction challenging, such as those with disabilities, this impact may make usage particularly difficult. Make provisions to lesson the impact of circumstantial conditions.</p>
           <h4>Examples</h4>
           <ul class="examples">
-            <li><strong>Judicious audio description:</strong> For an audio description of a televised drama, you only include information pertinent to the narrative. Describing everything in frame would be as distracting non-visually as examining it all visually.</li>
-            <li><strong>The visual pun:</strong> An image serves as a visual pun, with the hope of amusing your audience. Describing it literally makes it unfunny so an equivalent joke is provided as the image's alternative text.</li>
-          </ul>
-          <p>
-            <a href="#aim-for-equivalence">
-              <img src="images/link.svg" alt="">
-              Link to <strong class="principle-name">Aim for equivalence</strong>
-            </a>
-          </p>
-        </div>
-      </div>
-      <div class="principle-container">
-        <div class="intro">
-          <h3 id="consider-circumstances">Consider circumstances
-          </h3>
-          <button data-expands="consider-circumstances-content" aria-label="open section" hidden>
-            <svg height="20mm" width="20mm" viewBox="0 0 70.866142 70.866141">
-             <g transform="translate(0 -981.5)">
-              <rect style="stroke-width:0;fill:currentColor" ry="5" height="60" width="9.8985" y="987.36" x="30.051" class="up-strut" />
-              <rect style="stroke-width:0;fill:currentColor" ry="5" height="10" width="60" y="1012.4" x="5"/>
-             </g>
-            </svg>
-          </button>
-        </div>
-        <div id="consider-circumstances-content" class="principle-content">
-          <p><em>People use your interface through shifting situations. Make sure circumstances do not prohibit a valuable experience.</em></p>
-          <h4>Full description</h4>
-          <p>Your audience will include first time users, established users, hurried users, users at work, users at home. All of these circumstances can have an impact. For those who already find interaction challenging, such as those with certain disabilities, this impact may make use impossible. Make provisions to mitigate the impact of circumstantial conditions.</p>
-          <h4>Examples</h4>
-          <ul class="examples">
-            <li><strong>Keyboard shortcut tip:</strong> A first-time user will not be aware of the custom keyboard shortcuts you have implemented for them. You provide this information as a "tip" which can be dismissed permanently, reducing clutter on subsequent visits.</li>
+            <li><strong>Colour contrast:</strong> When using an interface outdoors, good contrast lessens the impact of bright sunshine.</li>
+            <li><strong>Context sensitive help:</strong> Users may need help when they first encounter a complex form or interaction. This help may become redundant, even distracting, as a user becomes more familiar with the form or interaction. Context sensitive help provides the user with choice as to when they access help and better control over the page.</li>
             <li><strong>Captions on the go:</strong> You're aware that the video content you are providing will be consumed on mobile devices, which means in public spaces. For smaller viewports, sound is switched off and captions activated by default. Users can consume the content without being antisocial.</li>
           </ul>
           <p>
-            <a href="#consider-circumstances">
+            <a href="#consider-circumstance">
               <img src="images/link.svg" alt="">
-              Link to <strong class="principle-name">Consider circumstances</strong>
-            </a>
-          </p>
-        </div>
-      </div>
-      <div class="principle-container">
-        <div class="intro">
-          <h3 id="harness-convention">Use familiar patterns
-          </h3>
-          <button data-expands="use-familiar-patterns-content" aria-label="open section" hidden>
-            <svg height="20mm" width="20mm" viewBox="0 0 70.866142 70.866141">
-             <g transform="translate(0 -981.5)">
-              <rect style="stroke-width:0;fill:currentColor" ry="5" height="60" width="9.8985" y="987.36" x="30.051" class="up-strut" />
-              <rect style="stroke-width:0;fill:currentColor" ry="5" height="10" width="60" y="1012.4" x="5"/>
-             </g>
-            </svg>
-          </button>
-        </div>
-        <div id="use-familiar-patterns-content" class="principle-content">
-          <p><em>Reveal functionality in familiar and expected ways to accelerate people's understanding of your interface.</em></p>
-          <h4>Full description</h4>
-          <p>Usable interfaces are founded on conventions; interface patterns which appear and work in ways the user has experienced before, both within and without your application. Take conventions and make them your own, rather than breaking with conventions entirely.</p>
-          <h4>Examples</h4>
-          <ul class="examples">
-            <li><strong>The navigation bar:</strong> Conventionally, site navigation takes the form of a horizontal list of links placed at the top of the web page. You adopt this convention, enhancing it with a creatively attractive "current page" indicator.</li>
-            <li><strong>Label configuration:</strong> You resist the temptation to appear innovative by placing your input labels below and to the right of your inputs. There's too much danger that they will be missed or associated with the wrong input.</li>
-          </ul>
-          <p>
-            <a href="#use-familiar-patterns">
-              <img src="images/link.svg" alt="">
-              Link to <strong class="principle-name">Use familiar patterns</strong>
+              Link to <strong class="principle-name">Consider circumstance</strong>
             </a>
           </p>
         </div>
@@ -203,13 +126,14 @@
           </button>
         </div>
         <div id="be-consistent-content" class="principle-content">
-          <p><em>Offer the same information, functionality, and behavior in the same way throughout your interface.</em></p>
+          <p><em>Be consistent with conventions and with their application throughout your interface.</em></p>
           <h4>Full description</h4>
-          <p>Form should follow function. Where form diverges between instances of the same functionality, an unnecessary burden on cognition is introduced. Maintain a pattern library where each reusable design pattern solves a discrete problem.</p>
+          <p>Familiar interfaces borrow from well-established patterns. These should be used consistently within the interface to reinforce their meaning and purpose. This should be applied to functionality, behavior, editorial, and presentation. You should say the same things in the same way and users should be able to do the same things in the same way.</p>
           <h4>Examples</h4>
           <ul class="examples">
-            <li><strong>Browsing products:</strong> Teasers for products are listed in many places on your website, including in category pages and search result pages. In each case, the same product information is provided in the same order, using the same markup and the same visual orientation.</li>
-            <li><strong>Familiar language:</strong> Different versions of your application for different platforms use the same language, especially for controls, headings and field labels.</li>
+            <li><strong>Consistent design patterns:</strong> Use consistent web and platform design patterns to help build familiarity and understanding.</li>
+            <li><strong>Consistent editorial:</strong> Use consistent editorial across platforms including editorial that is relied on by screen reader users such as text alternatives, headings, labels for buttons and so on.</li>
+            <li><strong>Consistent page architecture:</strong> Use consistent page architecture across templates to help people scan and navigate key content.</li>
           </ul>
           <p>
             <a href="#be-consistent">
@@ -221,9 +145,9 @@
       </div>
       <div class="principle-container">
         <div class="intro">
-          <h3 id="support-control">Support control
+          <h3 id="give-control">Give control
           </h3>
-          <button data-expands="support-control-content" aria-label="open section" hidden>
+          <button data-expands="give-control-content" aria-label="open section" hidden>
             <svg height="20mm" width="20mm" viewBox="0 0 70.866142 70.866141">
              <g transform="translate(0 -981.5)">
               <rect style="stroke-width:0;fill:currentColor" ry="5" height="60" width="9.8985" y="987.36" x="30.051" class="up-strut" />
@@ -232,21 +156,20 @@
             </svg>
           </button>
         </div>
-        <div id="support-control-content" class="principle-container">
-          <p><em>Ensure users are able to customise the interface where needed to improve their experience where needed.</em></p>
+        <div id="give-control-content" class="principle-container">
+          <p><em>Ensure people always have control over content and presentation. People should be able to access and interact with content in their preferred way.</em></p>
           <h4>Full description</h4>
-          <div id="support-control-desc" class="smaller" style="display: none">
-            <p>Do not suppress or disable the ability to change standard browser and platform settings such as font size, magnification, and contrast. In addition, provide custom settings to tailor your interface where appropriate.</p>
-          </div>
+          <p>Do not suppress or disable the ability to change standard browser and platform settings such as orientation, font size, zoom, and contrast. In addition, avoid content changes that have not been initiated by the user unless there is a way to control it.</p>
           <h4>Examples</h4>
           <ul class="examples">
-            <li><strong>Stop things moving:</strong> You provide animated illustrations by default. For those that find the animations distracting or experience vestibular issues, provide a setting to turn the animations off — preferably in such a way that the choice is remembered between sessions.</li>
-            <li><strong>Allow pinch zoom:</strong> There are many reasons why a user may want to operate the "pinch zoom" gesture on their touch device. Make sure it is not suppressed, and that the content does not get obscured when it is put to use.</li>
+            <li><strong>Scrolling control:</strong> 'Infinite scrolling' can be problematic, especially for users navigating by keyboard because they can't get past the stream of refreshing content. Give the option to turn off this feature and replace it with a 'load more' button.</li>
+            <li><strong>Make it stop:</strong> Some users find animations cause nausea, and others find them plain distracting. Where they play automatically, they should at least be easy to stop, by providing prominent playback controls.</li>
+            <li><strong>Allow zoom:</strong> There are many reasons why a user may want to operate the pinch-to-zoom gesture on their touch device. Make sure it is not suppressed, and that the content does not get obscured when it is put to use.</li>
           </ul>
           <p>
-            <a href="#support-control">
+            <a href="#give-control">
               <img src="images/link.svg" alt="">
-              Link to <strong class="principle-name">Support control</strong>
+              Link to <strong class="principle-name">Give control</strong>
             </a>
           </p>
         </div>
@@ -265,14 +188,12 @@
           </button>
         </div>
         <div id="offer-choice-content" class="principle-content">
-          <p><em>For complex or nonstandard tasks, provide different ways to complete them. Different people are comfortable with different approaches.</em></p>
+          <p><em>Consider providing different ways for people to complete tasks, especially those that are complex or non standard.</em></p>
           <h4>Full description</h4>
-          <p>There is no one "right" way to do anything. So, when you are breaking with interaction conventions, it's important users are offered alternative or fallback methods for getting things done. Where appropriate, this should include choices over the way content is displayed and can be read.</p>
+          <p>There is often more than one way to complete a task. You cannot assume what someone's preferred way might be. By providing alternatives for layout and task completion, you offer your audience choices that suit them given their circumstances at the time.</p>
           <h4>Examples</h4>
           <ul class="examples">
-            <li><strong>Swipe-to-delete alternative:</strong> You provide a "swipe to delete" action/gesture for items available in a list configuration. Not confident that all users will be aware of this implementation or able to use it effectively, you also provide a supplementary "delete" button at each item's permalink.</li>
-            <li><strong>Grids versus lists:</strong> Aware that some users will find scanning a single-file list of items more comfortable than a four coulmn grid, you offer the ability to switch between the two display modes.</li>
-            <li><strong>Data tables for all:</strong> You must provide a data table as an alternative for a complex visualisation to blind users. Instead of only providing it non-visually, you make it available to all. This way, anyone struggling with the complexity of the data has two ways of viewing it.</li>
+            <li>[TODO]</li>
           </ul>
           <p>
             <a href="#offer choice">
@@ -284,9 +205,9 @@
       </div>
       <div class="principle-container">
         <div class="intro">
-          <h3 id="prioritize">Prioritise tasks
+          <h3 id="prioritise-content">Prioritise content
           </h3>
-          <button data-expands="prioritize-tasks-content" aria-label="open section" hidden>
+          <button data-expands="prioritise-content-content" aria-label="open section" hidden>
             <svg height="20mm" width="20mm" viewBox="0 0 70.866142 70.866141">
              <g transform="translate(0 -981.5)">
               <rect style="stroke-width:0;fill:currentColor" ry="5" height="60" width="9.8985" y="987.36" x="30.051" class="up-strut" />
@@ -295,47 +216,21 @@
             </svg>
           </button>
         </div>
-        <div id="prioritize-tasks-content" class="principle-content">
-          <p><em>Bring features which are integral to the understanding and operation of the interface to the forefront.</em></p>
+        <div id="prioritise-content-content" class="principle-content">
+          <p><em>Help users focus on core tasks, features, and information by prioritising them within the content and layout.</em></p>
           <h4>Full description</h4>
-          <p>Rich interfaces can be difficult to apprehend where key features are not exposed clearly and early in the user's journey. Supplementary features are meaningless until the core purpose of the application has been explored though exposition and usage.</p>
+          <p>Interfaces can be difficult to understand when core features are not clearly exposed and prioritised. A site or application may provide lots of information and functionality, but people should be able to focus on one thing at a time. Identify the core purpose of the interface, and then the content and features needed to fulfill that purpose.</p>
           <h4>Examples</h4>
           <ul class="examples">
-            <li><strong>Email clients are for email:</strong> Your email application is principally for writing and reading email. The "compose" button is therefore present on all screens, and first in tab order by keyboard. Your inbox is first in a list of screens which include "spam" and "settings". It appears on login by default.</li>
+            <li><strong>Keep task focused:</strong> Progressively reveal features and content when needed, not all in one go.</li>
+            <li><strong>Prioritising tasks:</strong> An email application is principally for writing and reading email. The "compose" button is, therefore, present on all screens, and early in the focus order. The inbox is prioritised over other lists of email, such as "sent" and "spam" messages. Less used features such as tagging or organizing email into folders appear later in the focus order, as they will generally only be used when the primary task of reading the email is complete.</li>
+            <li><strong>Prioritising content:</strong> The primary content on a news article page is the story, therefore it should come before other content, both visually and in the source order. Related content, such as similar articles, should follow it, and unrelated content after that.</li>
+            <li><strong>Prioritising editorial:</strong> Editorial for links, headings and buttons should put the primary text first. This applies to both visible and hidden text. This makes the text easy to scan both visually and audibly for screen reader users.</li>
           </ul>
           <p>
-            <a href="#prioritize-tasks">
+            <a href="#prioritise-content">
               <img src="images/link.svg" alt="">
-              Link to <strong class="principle-name">Prioritize tasks</strong>
-            </a>
-          </p>
-        </div>
-      </div>
-      <div class="principle-container">
-        <div class="intro">
-          <h3 id="keep-focused">Keep focused
-          </h3>
-          <button data-expands="keep-focused-content" aria-label="open section" hidden>
-            <svg height="20mm" width="20mm" viewBox="0 0 70.866142 70.866141">
-             <g transform="translate(0 -981.5)">
-              <rect style="stroke-width:0;fill:currentColor" ry="5" height="60" width="9.8985" y="987.36" x="30.051" class="up-strut" />
-              <rect style="stroke-width:0;fill:currentColor" ry="5" height="10" width="60" y="1012.4" x="5"/>
-             </g>
-            </svg>
-          </button>
-        </div>
-        <div id="keep-focused-content" class="principle-content">
-          <p><em>Provide context-specific information and functionality in a clear and timely fashion.</em></p>
-          <h4>Full description</h4>
-          <p>Interfaces may provide lots of information and functionality simultaneously. However, people using interfaces should be able to focus on one thing at a time. It is while a user is focused on a particular task that information which may assist them in completing that task should be provided. This information should be clearly associated with the functionality at hand.</p>
-          <h4>Examples</h4>
-          <ul class="examples">
-            <li><strong>A stepped form:</strong> Your have a form which requires the entry of highly complex information. As a single page with multiple fields, it is intimidating and difficult to traverse. By dividing the form into steps, with one field per page, the problem is broken down there's more room to focus assistive information on the field at hand.</li>
-          </ul>
-          <p>
-            <a href="#keep-focused">
-              <img src="images/link.svg" alt="">
-              Link to <strong class="principle-name">Keep focused</strong>
+              Link to <strong class="principle-name">Prioritise content</strong>
             </a>
           </p>
         </div>
@@ -354,13 +249,14 @@
           </button>
         </div>
         <div id="add-value-content" class="principle-content">
-          <p><em>Only include features that add value. Features that do not add value only diminish simplicity.</em></p>
+          <p><em>Consider the value of features and how they improve the experience for different users.</em></p>
           <h4>Full description</h4>
-          <p>The more complex an interface, the more difficult it is to learn and use. Make sure that complexity and utility are proportionate. Only add complexity where it adds something useful and does not obstruct other, more important, functions.</p>
+          <p>Features should add value to the user experience by providing efficient and diverse ways to find and interact with content. Consider device features such as voice, geolocation, camera and vibration API's, and how integration with connected devices or a second screen could provide choice.</p>
           <h4>Examples</h4>
           <ul class="examples">
-            <li><strong>Search by voice:</strong> Some devices support voice recognition that can be incorporated into search functionality. Since many users, including those impeded by disability, benefit from voice recognition, it is a worth addition. It can also be incorporated unobtrusively via a supplemental button control.</li>
-            <li><strong>Limited tooltips:</strong> You consider the use of the HTML title attribute to provide information about controls. Considering titles are not exposed to keyboard users and cannot be styled, you resolve to provide clear inline labels instead.</li>
+            <li><strong>Integration with connected devices or second screen:</strong> For example using voice interfaces to control multimedia, search for content, output from music or TV adds value for people who struggle to use other interfaces.</li>
+            <li><strong>Integration with platform APIs:</strong> For example using the vibration API to make notifications for usable by deaf and hard of hearing people, or the geolocation API to make it easier for people to use location based services.</li>
+            <li><strong>Make task completion easier:</strong> Add a 'Show password' button to input fields so users can verify they have correctly inputted text, or add touch identification for password protected areas.</li>
           </ul>
           <p>
             <a href="#add-value">
