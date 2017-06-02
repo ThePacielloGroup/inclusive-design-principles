@@ -25,10 +25,6 @@ header > div {
   padding-bottom: 0;
 }
 
-main {
-  padding-top: 0;
-}
-
 header p {
   font-size: 0.66rem;
   margin-top: 0;
@@ -61,14 +57,30 @@ header p + p {
 
 a {
   color: #2c5aa0;
+  text-decoration-skip: ink;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  border: 0;
+}
+
+a:hover, button:hover {
+  text-decoration: none;
+  border-bottom: 2px solid #fcb316;
+  margin-bottom: -2px;
 }
 
 :focus:not([tabindex="-1"]) {
-  outline: 2px solid #80b3ff;
+  outline: 0.125rem solid #fcb316;
+  outline-offset: 0.125rem;
 }
 
 /* fix for IE :( */
-div:not([tabindex]):focus {
+div[tabindex]:focus {
   outline: none;
 }
 
@@ -100,6 +112,10 @@ h1 {
   top: 0;
 }
 
+#introduction {
+  margin: 1rem 0 3rem;
+}
+
 .principle-container + .principle-container {
   margin-top: 1.4rem;
   padding-top: 1.4rem;
@@ -115,7 +131,7 @@ h1 {
 @media (max-width: 370px) {
   .title-and-illustration img {
     width: 37%;
-    margin-top: 1.5rem; 
+    margin-top: 1.5rem;
   }
 }
 
@@ -166,12 +182,23 @@ p [src*="link.svg"] {
   border: 0;
   background: 0;
   color: #2c5aa0;
+  display: inline-block;
+  border-bottom: 2px solid #fefefe;
+}
+
+.intro button, .intro button:hover {
+  border: 0;
 }
 
 .with-button button {
   font-size: 0.85rem;
   text-decoration: underline;
   text-transform: uppercase;
+}
+
+.with-button button:hover {
+  text-decoration: none;
+  border-color: #fcb316;
 }
 
 .intro a {
@@ -259,6 +286,10 @@ button i::before {
 
 [data-expands][aria-expanded="true"] .up-strut {
   display: none;
+}
+
+[data-expands]:hover svg g {
+  color: #fcb316;
 }
 
 footer {
