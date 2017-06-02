@@ -51,9 +51,11 @@
     var hash = window.location.hash || false;
     if (hash) {
       var id = hash.substring(1);
-      var sectionToggle = document.querySelector('[data-expands='+id+'-content]');
-      if (sectionToggle.getAttribute('aria-expanded') === 'false') {
-        sectionToggle.click();
+      var sectionToggle = document.querySelector('[data-expands='+id+'-content]') || false;
+      if (sectionToggle) {
+        if (sectionToggle.getAttribute('aria-expanded') === 'false') {
+          sectionToggle.click();
+        }
       }
     }
   }
