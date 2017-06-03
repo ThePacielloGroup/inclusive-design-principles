@@ -313,3 +313,15 @@ footer {
 .smaller {
   font-size: 0.85rem;
 }
+
+@media print {
+
+  [hidden] {
+    display: block !important;
+  }
+
+  [data-expandall], [data-expands], .examples + p {
+    display: none !important;
+  }
+
+}
