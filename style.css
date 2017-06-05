@@ -310,6 +310,15 @@ footer {
   vertical-align: middle;
 }
 
+.project-foot a, .project-foot a:hover {
+  border: 0;
+}
+
+[rel="license"] {
+  display: inline-block;
+  margin-top: 0.5rem;
+}
+
 .smaller {
   font-size: 0.85rem;
 }
