@@ -4,8 +4,8 @@ A set of principles for designing inclusive web interfaces. The objectives of th
 
 The target audience are:
 * TPG Tech for use when carrying out client work such as design reviews, consulting, competitive analysis, usability testing, user reseach, development work and audits.
-* TPG Tech for referfence in the TPG Pattern Library and Knowledge Base.
-* Clients as part of the deliverables for seervices. They might be included in the design review template for example but could also be a Bonus Deliverables(https://www.dropbox.com/work/Internal/Bonus%20deliverables) when deliverable audits or other services. 
+* TPG Tech for reference in the TPG Pattern Library and Knowledge Base.
+* Clients as part of the deliverables for seervices. They might be included in the design review template for example but could also be a Bonus Deliverables (https://www.dropbox.com/work/Internal/Bonus%20deliverables) when deliverable audits or other services. 
 * Publication of the TPG blog.
 
 ## The principles
