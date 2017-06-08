@@ -69,7 +69,7 @@ button::-moz-focus-inner {
   border: 0;
 }
 
-a:hover, button:hover, .languages .selected {
+a:hover, button:hover, .languages [aria-current] {
   text-decoration: none;
   border-bottom: 2px solid #fcb316;
   margin-bottom: -2px;
@@ -231,7 +231,7 @@ main ul li + li {
 
 nav[aria-label="page"] {
   text-align: right;
-  background: url(../images/line.svg) repeat-x center;
+  background: url(/images/line.svg) repeat-x center;
   font-size: 0.8rem;
 }
 
