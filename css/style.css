@@ -69,7 +69,7 @@ button::-moz-focus-inner {
   border: 0;
 }
 
-a:hover, button:hover {
+a:hover, button:hover, .languages .selected {
   text-decoration: none;
   border-bottom: 2px solid #fcb316;
   margin-bottom: -2px;
@@ -78,6 +78,7 @@ a:hover, button:hover {
 :focus:not([tabindex="-1"]) {
   outline: 0.125rem solid #fcb316;
   outline-offset: 0.125rem;
+  border: 0;
 }
 
 /* fix for IE :( */
@@ -102,6 +103,7 @@ h1 {
 
 .title-and-illustration {
   position: relative;
+  margin-top: 1rem;
 }
 
 .title-and-illustration img {
@@ -229,7 +231,7 @@ main ul li + li {
 
 nav[aria-label="page"] {
   text-align: right;
-  background: url(line.svg) repeat-x center;
+  background: url(../images/line.svg) repeat-x center;
   font-size: 0.8rem;
 }
 
@@ -321,6 +323,28 @@ footer {
 
 .smaller {
   font-size: 0.85rem;
+}
+
+.languages {
+  margin-top: 0;
+  text-align: right;
+  padding-right: 1rem;
+  font-size: 0.75rem;
+}
+
+.languages * {
+  font-size: inherit;
+  display: inline;
+}
+
+.languages h2 {
+  font-size: inherit;
+  text-transform: none;
+  border: 0;
+}
+
+.languages li {
+  margin-left: 0.25rem;
 }
 
 @media print {
