@@ -9,7 +9,7 @@
     <link rel="canonical" href="https://inclusivedesignprinciples.org/es/" />
     <link rel="alternate" hreflang="en" href="https://inclusivedesignprinciples.org/" />
     <link rel="alternate" hreflang="es" href="https://inclusivedesignprinciples.org/es/" />
-    <link rel="alternate" hreflang="fr" href="https://inclusivedesignprinciples.org/fr/" />
+    <!--link rel="alternate" hreflang="fr" href="https://inclusivedesignprinciples.org/fr/" /-->
     <link rel="stylesheet" type="text/css" href="/css/style.css">
     <title>Principios de diseño inclusivo</title>
   </head>
@@ -26,15 +26,15 @@
         <ul>
           <li><a href="/">English</a></li>
           <li><a href="/es/" aria-current="page">Espagnol</a></li>
-          <li><a href="/fr/">Français</a></li>
+          <!--li><a href="/fr/">Français</a></li-->
         </ul>
       </aside>
       <div>
         <div class="title-and-illustration">
           <h1>
-            Inclusive
-            Design
-            Principles
+            Principios
+            de Diseño
+            Inclusivo
           </h1>
           <img src="/images/balloons_opt.svg" alt="tres globos flotan juntos en un cielo placido" />
         </div>
@@ -50,13 +50,13 @@
       </div>
       <h2 id="principles" class="with-button" tabindex="-1">
         <span>Los Principios</span>
-        <button data-expandAll hidden>expand all</button>
+        <button data-expandAll hidden>muestra todo</button>
       </h2>
       <div class="principle-container">
         <div class="intro">
           <h3 id="provide-comparable-experience">Proporciona experiencias comparables</h3>
-          <button data-expands="provide-comparable-experience-content" aria-label="open section" hidden>
-            <svg height="20mm" width="20mm" viewBox="0 0 70.866142 70.866141">
+          <button data-expands="provide-comparable-experience-content" aria-describedby="provide-comparable-experience-content" aria-label="muestra sección" hidden>
+            <svg focusable="false" height="20mm" width="20mm" viewBox="0 0 70.866142 70.866141">
              <g transform="translate(0 -981.5)">
               <rect style="stroke-width:0;fill:currentColor" ry="5" height="60" width="9.8985" y="987.36" x="30.051" class="up-strut" />
               <rect style="stroke-width:0;fill:currentColor" ry="5" height="10" width="60" y="1012.4" x="5"/>
@@ -65,13 +65,13 @@
           </button>
         </div>
         <div id="provide-comparable-experience-content" class="principle-content">
-          <p><em>Asegura que la interfaz permite a todos hacer tareas de manera conveniente, sin perder calidad del contenido.</em></p>
+          <p><em>Asegura que la interfaz permite hacer tareas de maneras convenientes para todos, sin perder calidad del contenido.</em></p>
           <h4>Descripción completa</h4>
           <p>Sea por cirunstancias, contexto, o decisión propria, la gente son diversas. Usan metodos y herramientas diversas para interactuar con una aplicación. Lo que la interfaz ofrece a cada uno debe ser comparable en valor y calidad.</p>
           <h4>Ejemplos</h4>
           <ul class="examples">
             <li><strong>Contenido alternativo:</strong> Un alternativo basico, sea texto "alt", una transcripción, descripción auditiva, o lenguaje de signos, hacen contenido accesible pero para ser equivalente hay que capturar la esencia del original.</li>
-            <li><strong>Caracterisiticas de ergonomía:</strong> Proporcionar subtitulos syncronizados hace un video accesible. Pero hacerlos customizables, colorados, y permitiendo moverlas da una experiencía más comparable.</li>
+            <li><strong>Caracterisiticas de ergonomía:</strong> Proporcionar subtitulos sincronizados hace un video accesible. Pero hacerlos customizables, colorados, y permitiendo moverlas da una experiencía más comparable.</li>
             <li><strong>Notificaciones:</strong> Notificaciones que aparecen en la interfaz son obvios visualmente, pero necesitec que usuarios ciegos trabajan para descubrirlas. Una experiencía comparable por ellos se consigue a traves de usar una región de tipo <code>aria-live</code>. Así el usuario ne necesita hacer nada especial para recibir las notificaciones.</li>
           </ul>
           <p>
@@ -86,8 +86,8 @@
         <div class="intro">
           <h3 id="consider-situation">Considera la situación del usuario
           </h3>
-          <button data-expands="consider-situation-content" aria-label="open section" hidden>
-            <svg height="20mm" width="20mm" viewBox="0 0 70.866142 70.866141">
+          <button data-expands="consider-situation-content" aria-describedby="consider-situation-content" aria-label="muestra sección" hidden>
+            <svg focusable="false" height="20mm" width="20mm" viewBox="0 0 70.866142 70.866141">
              <g transform="translate(0 -981.5)">
               <rect style="stroke-width:0;fill:currentColor" ry="5" height="60" width="9.8985" y="987.36" x="30.051" class="up-strut" />
               <rect style="stroke-width:0;fill:currentColor" ry="5" height="10" width="60" y="1012.4" x="5"/>
@@ -102,8 +102,8 @@
           <h4>Ejemplos</h4>
           <ul class="examples">
             <li><strong>Contraste de colores:</strong> Estando fuera, un nivel alto de contraste minimiza el impacto del sol en la visibilidad de la pantalla.</li>
-            <li><strong>Ayuda contextual:</strong> Un usuario puede necesitar ayuda la primera vez que encuentran un forumlario u otro interacción. Pero el ayuda puede ser innecesario, o aún distraer, cuando se acustombran a la interfaz. Ayuda contextual permite al usuario elegir cuando la piden, dando mejor control de la interfaz.</li>
-            <li><strong>Subtitulos en el camino:</strong> Video se mira en dsipositivos moviles, entonces en lugares publicos. Para pantallas pequeñas, apaga el sonido y pon los subtitulos por defecto. El usuario puede disfrutarlo sin molestar a los que están alredor.</li>
+            <li><strong>Ayuda contextual:</strong> Un usuario puede necesitar ayuda la primera vez que encuentran un forumlario u otra interacción. Pero el ayuda puede ser innecesario, o aún distraer, cuando se acustombran a la interfaz. Ayuda contextual permite al usuario elegir cuando la piden, dando mejor control de la interfaz.</li>
+            <li><strong>Subtitulos en el camino:</strong> Video se mira en dsipositivos moviles, entonces en lugares publicos. Para pantallas pequeñas, apaga el sonido y pon los subtítulos por defecto. El usuario puede disfrutarlo sin molestar a los que están alredor.</li>
           </ul>
           <p>
             <a href="#consider-situation">
@@ -117,8 +117,8 @@
         <div class="intro">
           <h3 id="be-consistent">Se consistente
           </h3>
-          <button data-expands="be-consistent-content" aria-label="open section" hidden>
-            <svg height="20mm" width="20mm" viewBox="0 0 70.866142 70.866141">
+          <button data-expands="be-consistent-content" aria-describedby="be-consistent-content" aria-label="muestra sección" hidden>
+            <svg focusable="false" height="20mm" width="20mm" viewBox="0 0 70.866142 70.866141">
              <g transform="translate(0 -981.5)">
               <rect style="stroke-width:0;fill:currentColor" ry="5" height="60" width="9.8985" y="987.36" x="30.051" class="up-strut" />
               <rect style="stroke-width:0;fill:currentColor" ry="5" height="10" width="60" y="1012.4" x="5"/>
@@ -129,7 +129,7 @@
         <div id="be-consistent-content" class="principle-content">
           <p><em>Usa convenciones, de manera consistente.</em></p>
           <h4>Descripción completa</h4>
-          <p>Componentes de interfaz reflejan patrones establecidos y conocidos para hacer su sentido más obvio. En funcionalidad, comportanmiento, aparencía y estilo editorial, se debe decir las cosas de la misma manera y usuarios deben poder hacer acciones similares de maneras parecidas.</p>
+          <p>Componentes de interfaz reflejan patrones establecidos y conocidos para hacer su sentido más obvio. En funcionalidad, comportamiento, aparencía y estilo editorial, se debe decir las cosas de la misma manera y usuarios deben poder hacer acciones similares de maneras parecidas.</p>
           <h4>Ejemplos</h4>
           <ul class="examples">
             <li><strong>Patrones de diseño coherentes:</strong> Usa patrones de diseño consistentes para resforzar la comprensibilidad y familiaridad.</li>
@@ -148,8 +148,8 @@
         <div class="intro">
           <h3 id="give-control">Deja el usuario mandar
           </h3>
-          <button data-expands="give-control-content" aria-label="open section" hidden>
-            <svg height="20mm" width="20mm" viewBox="0 0 70.866142 70.866141">
+          <button data-expands="give-control-content" aria-describedby="give-control-content" aria-label="muestra sección" hidden>
+            <svg focusable="false" height="20mm" width="20mm" viewBox="0 0 70.866142 70.866141">
              <g transform="translate(0 -981.5)">
               <rect style="stroke-width:0;fill:currentColor" ry="5" height="60" width="9.8985" y="987.36" x="30.051" class="up-strut" />
               <rect style="stroke-width:0;fill:currentColor" ry="5" height="10" width="60" y="1012.4" x="5"/>
@@ -158,13 +158,13 @@
           </button>
         </div>
         <div id="give-control-content" class="principle-container">
-          <p><em>Asegura que el usuario es quien manda. Debe poder interreaccionar con el contenido de manera que le convenie.</em></p>
+          <p><em>Asegura que el usuario es quien manda. Debe poder interactuar con el contenido de manera que le convenie.</em></p>
           <h4>Descripción completa</h4>
-          <p>No suprime opciones para cambiar caracteristicas tales orientación de la pantalla, tamaño del texto, nivel de magnificación, contraste y colores. Tampoco cambia contenido salvo por a una interacción explicita de parte del usuario.</p>
+          <p>No suprime opciones para cambiar características como orientación de la pantalla, tamaño del texto, nivel de magnificación, contraste y colores. Tampoco cambia contenido salvo por a una interacción explicita de parte del usuario.</p>
           <h4>Ejemplos</h4>
           <ul class="examples">
-            <li><strong>Scrolling control:</strong> 'Infinite scrolling' can be problematic, especially for users navigating by keyboard because they can't get past the stream of refreshing content. Give the option to turn off this feature and replace it with a 'load more' button.</li>
-            <li><strong>Para:</strong> Para algunos usuarios animaciones o parallax scrolling pueden distraer, marear, o peor. Si empiezan automaticamente, deben ser faciles de parar por controles prominentes.</li>
+            <li><strong>"Scrolling":</strong> El 'Infinite scrolling' (cuando se agrga contenido automaticamente) puede implicar problemas para usuarios del teclado, por que nunca pueden pasar el flujo de contenido. Permite apagarlo poniendo un botón para actualizar.</li>
+            <li><strong>Para:</strong> Para algunos usuarios animaciones o "parallax scrolling" pueden distraer, marear, o peor. Si empiezan automaticamente, deben ser faciles de parar por controles prominentes.</li>
             <li><strong>Permite magnificar:</strong> Hay muchas razones por que un usuario querra magnificar una pagina. Asegura que no está suprimida, y que el contenido no se esconde cuando está magnificada.</li>
           </ul>
           <p>
@@ -179,8 +179,8 @@
         <div class="intro">
           <h3 id="offer-choice">Ofrece opciones
           </h3>
-          <button data-expands="offer-choice-content" aria-label="open section" hidden>
-            <svg height="20mm" width="20mm" viewBox="0 0 70.866142 70.866141">
+          <button data-expands="offer-choice-content" aria-describedby="offer-choice-content" aria-label="muestra sección" hidden>
+            <svg focusable="false" height="20mm" width="20mm" viewBox="0 0 70.866142 70.866141">
              <g transform="translate(0 -981.5)">
               <rect style="stroke-width:0;fill:currentColor" ry="5" height="60" width="9.8985" y="987.36" x="30.051" class="up-strut" />
               <rect style="stroke-width:0;fill:currentColor" ry="5" height="10" width="60" y="1012.4" x="5"/>
@@ -191,12 +191,12 @@
         <div id="offer-choice-content" class="principle-content">
           <p><em>Proporciona maneras diversas de cumplir tareas, sobre todo los que son complejos o poco familiares.</em></p>
           <h4>Descripción completa</h4>
-          <p>Normalmente hay más de una manera de cumplir un tarea, y no se puede presumir cual sera preferida por un usuario. Proporcionar alternativas para la maquetación de información, y los processos para cumplir tareas, ofrtece opciones que permite el usuario elegir la que le conviene en cada contexto.</p>
+          <p>Normalmente hay más de una manera de cumplir un tarea, y no se puede presumir cual sera preferida por un usuario. Proporcionar alternativas para la maquetación de información, y los processos para cumplir tareas, ofrece opciones que permite el usuario elegir la que le conviene en cada contexto.</p>
           <h4>Ejemplos</h4>
           <ul class="examples">
             <li><strong>Diversas maneras para hacer una acción:</strong> Ofrece maneras distintas para hacer una acción. Por ejemplo para borrar un objeto,se puede permitir una interacción directa, sea un gesto en pantalla tactil o una tecla de atajo, asi que seleccionar objetos y tocar una botón de borrar - cómo se ve en clientes de correo.</li>
-            <li><strong>Maquetación:</strong>Where there are long lists of content consider offering a grid or list layout option. This supports people who may want larger images on screen or smaller rows.</li>
-            <li><strong>Alternativas accesibles:</strong> Diversas maneras de presentar información, por ejemplo tablas de datos e infograficos, deben estar disponibles para todos usuarios, no escondidos y sólo ofrecidos a usuarios de lector de pantalla. Esas alternativas pueden ayudar a todos usuarios, no sólo un grupo arbitrario, si ofrecemos la opción</li>
+            <li><strong>Maquetación:</strong> Cuando hay listados largos, ofrece una maquetación en tablas, que ayuda usuarios quien prefieren imagenes grandes, o contenido en bloques pequeños.</li>
+            <li><strong>Alternativas accesibles:</strong> Diversas maneras de presentar información, como tablas de datos e infograficos, deben estar disponibles para todos usuarios, no escondidos y sólo ofrecidos a usuarios de lector de pantalla. Esas alternativas pueden ayudar a todos usuarios, no sólo un grupo arbitrario, si ofreces la opción</li>
           </ul>
           <p>
             <a href="#offer choice">
@@ -210,8 +210,8 @@
         <div class="intro">
           <h3 id="prioritise-content">Prioritiza contenido
           </h3>
-          <button data-expands="prioritise-content-content" aria-label="open section" hidden>
-            <svg height="20mm" width="20mm" viewBox="0 0 70.866142 70.866141">
+          <button data-expands="prioritise-content-content" aria-decribedby="prioritise-content-content" aria-label="muestra sección" hidden>
+            <svg focusable="false" height="20mm" width="20mm" viewBox="0 0 70.866142 70.866141">
              <g transform="translate(0 -981.5)">
               <rect style="stroke-width:0;fill:currentColor" ry="5" height="60" width="9.8985" y="987.36" x="30.051" class="up-strut" />
               <rect style="stroke-width:0;fill:currentColor" ry="5" height="10" width="60" y="1012.4" x="5"/>
@@ -222,11 +222,11 @@
         <div id="prioritise-content-content" class="principle-content">
           <p><em>Ayuda el usuario a enfocarse en tareas, funciones y contenidos importantes por destacarlos en el contenido y maquetación.</em></p>
           <h4>Descripción completa</h4>
-          <p>Puede ser más difícil entender una interfaz si las partes más importantes no se destacan. Un sitoip puede ofrecer mucha información y funcionalidad, pero debe permitir el usuario enfocarse en una cosa a la vez. Identifica la funcion clave de la interfaz, y el contenido y controles que se dirigen a ésta función.</p>
+          <p>Puede ser más difícil entender una interfaz si las partes más importantes no se destacan. Un sitio puede ofrecer mucha información y funcionalidad, pero debe permitir el usuario enfocarse en una cosa a la vez. Identifica la funcion clave de la interfaz, y el contenido y controles que se dirigen a ésta función.</p>
           <h4>Ejemplos</h4>
           <ul class="examples">
             <li><strong>Enfocar en la tarea actual:</strong> Muestra funcionalidades y contenido cuando son relevantes, no todo al principio.</li>
-            <li><strong>Prioritiza tareas:</strong> Una app de correo permite principalmente leer y escribir mensajes. Entonces la botón para escribir un nuevo mensaje está siempre disponible, y prominente incluso por ser un de los primeros en el orden de enfocar. El "inbox" está presentada antes de otros listados cómo los enviados, o el spam. Funciones menos usados, cómo etiquetar o mover mensajes aparecen despues en el orden de enfocar, dado que se usan normalmente despues de cumplir las funciones bascias de leer.</li>
+            <li><strong>Prioritiza tareas:</strong> Una app de correo permite principalmente leer y escribir mensajes. Entonces la botón para escribir un nuevo mensaje está siempre disponible, y prominente incluso por ser un de los primeros en el orden de enfocar. El "inbox" está presentada antes de otros listados cómo los enviados, o el spam. Funciones menos usados, cómo etiquetar o mover mensajes aparecen despues en el orden de enfocar, dado que se usan normalmente despues de las funciones bascias de leer.</li>
             <li><strong>Prioritisa contenido:</strong> El contenido primario de una noticia debe aparecer primero, tanto visualmente que en el orden del contenido en el código fuente. Contenido relacionado cómo articulos parecidos deben seguir, y después contenido sin relación directa.</li>
             <li><strong>Usa lenguaje claro:</strong> EL texto de enlaces, encabezados, y botones debe usar lenguaje sencillo y claro, poniendo primero la información más importante, sea para texto visto o escondido por defecto. Eso facilita escanear el texto, sea visualmente o por audio, por ejemplo con un lector de pantalla. Lenguaje claro también ayuda a los que tienen otro idioma materna, y se traduce más facilmente.</li>
           </ul>
@@ -242,8 +242,8 @@
         <div class="intro">
           <h3 id="add-value">Agrega valor
           </h3>
-          <button data-expands="add-value-content" aria-label="open section" hidden>
-            <svg height="20mm" width="20mm" viewBox="0 0 70.866142 70.866141">
+          <button data-expands="add-value-content" aria-describedby="add-value-content" aria-label="muestra sección" hidden>
+            <svg focusable="false" height="20mm" width="20mm" viewBox="0 0 70.866142 70.866141">
              <g transform="translate(0 -981.5)">
               <rect style="stroke-width:0;fill:currentColor" ry="5" height="60" width="9.8985" y="987.36" x="30.051" class="up-strut" />
               <rect style="stroke-width:0;fill:currentColor" ry="5" height="10" width="60" y="1012.4" x="5"/>
@@ -252,13 +252,13 @@
           </button>
         </div>
         <div id="add-value-content" class="principle-content">
-          <p><em>Considera el valor de funciones y caractgerísticas, y cómo mejoran la experiencía de usuarios diversos.</em></p>
+          <p><em>Considera el valor de funciones y características, y cómo mejoran la experiencía de usuarios diversos.</em></p>
           <h4>Descripción completa</h4>
-          <p>Funciones y caracteristicas deben mejorar la expeiencía del usuario, proporcionando maneras eficaces de encontrar e interactuar con el contgenido. Considera funcionalidades de dispositivo cómo interreacción por voz, goerlocalización, la camera, o vibración, y cómo integración con dsipositivos conectados pueden ofrecer opciones más convenientes.</p>
+          <p>Funciones y características deben mejorar la expeiencía del usuario, proporcionando maneras eficaces de encontrar e interactuar con el contgenido. Considera funcionalidades de dispositivo cómo interreacción por voz, goerlocalización, la camera, o vibración, y cómo integración con dsipositivos conectados pueden ofrecer opciones más convenientes.</p>
           <h4>Ejemplos</h4>
           <ul class="examples">
             <li><strong>Integración con dispositivos conectados, o "pantalla segunda":</strong> Usando interacción por voz para controlar contenido multimedia o buscar contenido ayuda a gente quye pueden tener dificultad con otras interfaces.</li>
-            <li><strong>Integración con funcionalidades del plataforma:</strong> Vibración puede hacer notificaciones más claras para gente sorda o con dificultad auditiva. Geolocalización puede facilitar el uso de servicios locales.</li>
+            <li><strong>Integración con funcionalidades del plataforma:</strong> Vibración puede hacer notificaciones más claras para gente sorda o con dificultad auditiva. Geolocalización puede facilitar el uso de servicios locales por usuarios con dificultades de moverse.</li>
             <li><strong>Facilita tareas:</strong> Permite ver contraseñas para permitir usuarios de verificar que las han escrito bien, o permite identificación por huella digital así que por contraseña.</li>
           </ul>
           <p>
