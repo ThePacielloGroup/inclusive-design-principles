@@ -77,4 +77,12 @@
   window.onload = openSection;
   window.onhashchange = openSection;
 
+  var sectionHeadings = document.querySelectorAll('.intro h3');
+
+  Array.prototype.forEach.call(sectionHeadings, function (heading) {
+    heading.addEventListener('click', function () {
+      this.nextElementSibling.click();
+    })
+  });
+
 })();

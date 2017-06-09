@@ -193,6 +193,10 @@ p [src*="link.svg"] {
   border: 0;
 }
 
+.intro h3 {
+  cursor: pointer;
+}
+
 .with-button button {
   font-size: 0.85rem;
   text-decoration: underline;
