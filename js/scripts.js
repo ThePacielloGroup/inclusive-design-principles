@@ -1,5 +1,18 @@
 (function() {
 
+  var translations = {
+    en: {
+      EXPAND: "expand all",
+      COLLAPSE: "collapse all"
+    },
+    es: {
+      EXPAND: "muestra todo",
+      COLLAPSE: "esconde todos"
+    }
+  };
+  var pageLang = document.querySelector('html').getAttribute('lang');
+  var strings = translations[pageLang] || translations['en'];
+
   function collapse(toggle, target) {
     toggle.setAttribute('aria-expanded', 'false');
     target.hidden = true;
@@ -30,20 +43,21 @@
 
   var expandAll = document.querySelector('[data-expandAll]');
   expandAll.hidden = false;
+  expandAll.textContent = strings.EXPAND;
   expandAll.addEventListener('click', function() {
-    var expanded = this.textContent === 'expand all' ? false : true;
+    var expanded = this.textContent === strings.EXPAND ? false : true;
     if (expanded) {
       [].forEach.call(toggles, function(toggle) {
         var target = document.getElementById(toggle.getAttribute('data-expands'));
         collapse(toggle, target);
       });
-      this.textContent = 'expand all';
+      this.textContent = strings.EXPAND;
     } else {
       [].forEach.call(toggles, function(toggle) {
         var target = document.getElementById(toggle.getAttribute('data-expands'));
         expand(toggle, target);
       });
-      this.textContent = 'collapse all';
+      this.textContent = strings.COLLAPSE;
     }
   });
 
