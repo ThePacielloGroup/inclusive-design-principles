@@ -318,6 +318,7 @@ footer {
 
 .project-foot a, .project-foot a:hover {
   border: 0;
+  margin-bottom: 0;
 }
 
 [rel="license"] {
