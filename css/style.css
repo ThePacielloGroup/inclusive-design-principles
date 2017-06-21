@@ -9,7 +9,7 @@
 
 html {
   font-family: Asap, sans-serif;
-  font-size: calc(1em + 0.5vw);
+  font-size: calc(1em + 0.2vw + 0.2vh);
   color: #111;
   line-height: 1.4;
 }
