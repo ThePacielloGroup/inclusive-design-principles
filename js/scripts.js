@@ -8,6 +8,10 @@
     es: {
       EXPAND: "muestra todo",
       COLLAPSE: "esconde todos"
+    },
+    fr: {
+      EXPAND: "ouvrir tout",
+      COLLAPSE: "fermer tout"
     }
   };
   var pageLang = document.querySelector('html').getAttribute('lang');
