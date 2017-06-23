@@ -9,7 +9,7 @@
 
 html {
   font-family: Asap, sans-serif;
-  font-size: calc(1em + 0.5vw);
+  font-size: calc(1em + 0.2vw + 0.2vh);
   color: #111;
   line-height: 1.4;
 }
@@ -57,7 +57,7 @@ header p + p {
 }
 
 a {
-  color: #2c5aa0;
+  color: #1b75bc;
   text-decoration-skip: ink;
 }
 
@@ -184,7 +184,7 @@ p [src*="link.svg"] {
   margin: 0;
   border: 0;
   background: 0;
-  color: #2c5aa0;
+  color: #1b75bc;
   display: inline-block;
   border-bottom: 2px solid #fefefe;
 }
@@ -283,7 +283,7 @@ nav[aria-label="principles"] a:focus {
 }
 
 button i::before {
-  color: #2c5aa0;
+  color: #1b75bc;
 }
 
 [data-expands] svg {
@@ -318,6 +318,7 @@ footer {
 
 .project-foot a, .project-foot a:hover {
   border: 0;
+  margin-bottom: 0;
 }
 
 [rel="license"] {
