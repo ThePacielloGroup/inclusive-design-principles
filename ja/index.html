@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link href="https://fonts.googleapis.com/css?family=Miriam+Libre:700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Asap:400,400i" rel="stylesheet">
+    <link rel="canonical" href="https://inclusivedesignprinciples.org/ja/" />
+    <link rel="alternate" hreflang="en" href="https://inclusivedesignprinciples.org/" />
+    <link rel="alternate" hreflang="es" href="https://inclusivedesignprinciples.org/es/" />
+    <link rel="alternate" hreflang="fr" href="https://inclusivedesignprinciples.org/fr/" />
+    <link rel="alternate" hreflang="ja" href="https://inclusivedesignprinciples.org/ja/" />
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <link rel="icon" sizes="192x192" href="/favicon.png">
+    <link rel="apple-touch-icon" href="/favicon.png">
+    <title>インクルーシブデザインの原則（「Inclusive Design Principles」日本語訳）</title>
+  </head>
+  <body>
+    <header>
+      <nav aria-label="page">
+        <ul>
+          <li><a href="#introduction">イントロダクション</a></li>
+          <li><a href="#principles">原則</a></li>
+        </ul>
+      </nav>
+
+      <aside class="languages">
+        <h2>言語を選択：</h2>
+        <ul>
+          <li><a href="/" hreflang="en" lang="en">English</a></li>
+          <li><a href="/es/" hreflang="es" lang="es">Español</a></li>
+          <li><a href="/fr/" hreflang="fr" lang="fr">Français</a></li>
+          <li><a href="/ja/" hreflang="ja" lang="ja" aria-current="page">日本語</a></li>
+        </ul>
+      </aside>
+
+      <div>
+        <div class="title-and-illustration">
+          <h1>
+            インクルーシブ<br>
+            デザインの<br>
+            原則
+          </h1>
+          <img src="/images/balloons_opt.svg" alt="">
+        </div>
+        <p>執筆者：Henny Swan, Ian Pouncey, Heydon Pickering, Léonie Watson</p>
+        <p><a href="https://www.paciellogroup.com/"><img src="/images/tpg.svg" alt="The Paciello Group"></a></p>
+        <p>日本語訳：<a href="https://weba11y.jp/">植木 真（Makoto Ueki</a>、<a href="https://website-usability.info/">土屋 一彦（Kazuhiko Tsuchiya</a></p>
+      </div>
+    </header>
+    <main>
+      <div id="introduction" tabindex="-1">
+        <p>この「インクルーシブデザインの原則」というのは、利用者を最優先に考えることです。永続的、一時的、状況的、または変化する障害を持つ人々 (つまり、私たちみんな) のニーズに合わせてデザインすることです。</p>
+        <p>ここに掲げた原則は、デザイナー、ユーザーエクスペリエンスの専門家、開発者、プロダクトオーナー、プランナー、イノベーター、アーティスト、思想家など、ウェブサイトやアプリケーションの設計と開発に携わるあらゆる人に向けて、インクルーシブデザインに対する幅広いアプローチを提供することを目的としています。</p>
+        <p>さらに詳しい背景については、TPGブログの<a href="https://www.paciellogroup.com/blog/2017/06/inclusive-design-principles/"><em>Inclusive Design Principles</em></a>をご覧ください。</p>
+      </div>
+      <h2 id="principles" class="with-button" tabindex="-1">
+        <span>原則</span>
+        <button data-expandall="">すべて展開する</button>
+      </h2>
+      <div class="principle-container">
+        <div class="intro">
+          <h3 id="provide-comparable-experience">同等の経験を提供する</h3>
+          <button data-expands="provide-comparable-experience-content" aria-label="セクションの開閉" aria-describedby="provide-comparable-experience" hidden>
+            <svg focusable="false" height="20mm" width="20mm" viewBox="0 0 70.866142 70.866141">
+             <g transform="translate(0 -981.5)">
+              <rect style="stroke-width:0;fill:currentColor" ry="5" height="60" width="9.8985" y="987.36" x="30.051" class="up-strut"></rect>
+              <rect style="stroke-width:0;fill:currentColor" ry="5" height="10" width="60" y="1012.4" x="5"></rect>
+             </g>
+            </svg>
+          </button>
+        </div>
+        <div id="provide-comparable-experience-content" class="principle-content">
+          <p><em>あなたの作ったインターフェースがすべての人に同等の体験を提供できるようにして、利用者がそれぞれのニーズに合った手段を用いても、コンテンツ品質が損われることなくタスクを達成できるようにしましょう。</em></p>
+          <h4>詳しい説明</h4>
+          <p>置かれている状況、選択する手段、利用する文脈など、利用者には多様性があります。利用者が情報を読んだり操作をしたりするために異なるアプローチやツールを用いたとしても、インターフェースが各利用者に提供する体験は、価値、質、効率性の面で、同等でなければなりません。</p>
+          <h4>例</h4>
+          <ul class="examples">
+            <li><strong>代替となるコンテンツ：</strong> 代替テキスト、トランスクリプト、音声解説、手話などの基本的な代替コンテンツがあることによって、コンテンツをアクセシブルにすることができます。ただし、その代替コンテンツが同等であるためには、元となるコンテンツのエッセンスを取り込む必要があります。</li>
+            <li><strong>人間工学に基づいた機能：</strong> 同期したクローズドキャプションを提供することによって、あなたの動画コンテンツはアクセシブルになります。しかし、さらにそれをカスタマイズ可能にして、色を変えたり、表示位置を変えたりできることによって、より同等の体験をもたらすことができます。</li>
+            <li><strong>通知：</strong> インターフェースに表示される通知は視覚的には明白ですが、スクリーンリーダーの利用者がそれを主体的に発見できるようにする必要があります。全盲の視覚障害者にも晴眼者と同等の体験をもたらすには、ライブリージョンを用いることです。それによって、その通知を得るために利用者側で何か特別な操作を行う必要はなくなります。<br>
+<small>［訳注］「ライブリージョン」とは、ページの全体ではなく一部のみが更新される場合に、その更新内容を支援技術 (スクリーンリーダーなど) の利用者にも適切なタイミングで伝達するための、WAI-ARIA の仕組みのことです。</small></li>
+          </ul>
+          <p>
+            <a href="#provide-comparable-experience">
+              <img src="/images/link.svg" alt="">
+              「<strong class="principle-name">同等の経験を提供する</strong>」へのリンク
+            </a>
+          </p>
+        </div>
+      </div>
+      <div class="principle-container">
+        <div class="intro">
+          <h3 id="consider-situation">状況を考慮する</h3>
+          <button data-expands="consider-situation-content" aria-label="セクションの開閉" aria-describedby="consider-situation" hidden>
+            <svg focusable="false" height="20mm" width="20mm" viewBox="0 0 70.866142 70.866141">
+             <g transform="translate(0 -981.5)">
+              <rect style="stroke-width:0;fill:currentColor" ry="5" height="60" width="9.8985" y="987.36" x="30.051" class="up-strut"></rect>
+              <rect style="stroke-width:0;fill:currentColor" ry="5" height="10" width="60" y="1012.4" x="5"></rect>
+             </g>
+            </svg>
+          </button>
+        </div>
+        <div id="consider-situation-content" class="principle-content">
+          <p><em>利用者は様々な状況であなたの作ったユーザーインターフェースを使います。状況に関係なく、あなたの作ったユーザーインターフェースが利用者に貴重な体験を提供できるようにしましょう。</em></p>
+          <h4>詳しい説明</h4>
+          <p>新規の利用者、既存の利用者、仕事中の利用者、在宅の利用者、移動中の利用者、プレッシャーにさらされている利用者、など人々の状況は様々です。これらの状況はすべて、人々の体験に影響を与える可能性があります。障害がある人のように、既にインタラクションに大変さを覚えている人にとっては、こうした状況による影響によって、著しく使いづらくなっていることがあります。</p>
+          <h4>例</h4>
+          <ul class="examples">
+            <li><strong>色のコントラスト：</strong> コントラストを確保することによって、屋外でインターフェースを使用するときの明るい日差しによる見づらさを軽減します。</li>
+            <li><strong>状況に即したヘルプ：</strong> 利用者は複雑なフォームやインタラクションに初めて遭遇したとき、ヘルプを必要とすることがあります。このヘルプは、利用者がそのフォームやインタラクションに慣れていくにつれて、かえって冗長になったり、邪魔になったりする可能性があります。状況に即したヘルプによって、いつヘルプを利用してページをより使いやすくするかを、利用者に選択させます。</li>
+            <li><strong>外出中のキャプション：</strong> あなたが提供している動画コンテンツは、ご存知のようにモバイルデバイス上でも視聴されます。それは公共の場所である可能性もありますが、社会的なマナーに反することなく楽しみたいものです。小さな画面の場合は、デフォルトで音声をオフにして、キャプションが表示されるようにしましょう。</li>
+          </ul>
+          <p>
+            <a href="#consider-situation">
+              <img src="/images/link.svg" alt="">
+              「<strong class="principle-name">状況を考慮する</strong>」へのリンク
+            </a>
+          </p>
+        </div>
+      </div>
+      <div class="principle-container">
+        <div class="intro">
+          <h3 id="be-consistent">一貫性を保つ</h3>
+          <button data-expands="be-consistent-content" aria-label="セクションの開閉" aria-describedby="be-consistent" hidden>
+            <svg focusable="false" height="20mm" width="20mm" viewBox="0 0 70.866142 70.866141">
+             <g transform="translate(0 -981.5)">
+              <rect style="stroke-width:0;fill:currentColor" ry="5" height="60" width="9.8985" y="987.36" x="30.051" class="up-strut"></rect>
+              <rect style="stroke-width:0;fill:currentColor" ry="5" height="10" width="60" y="1012.4" x="5"></rect>
+             </g>
+            </svg>
+          </button>
+        </div>
+        <div id="be-consistent-content" class="principle-content">
+          <p><em>馴染みのある慣例を用いて、それを一貫して適用しましょう。</em></p>
+          <h4>詳しい説明</h4>
+          <p>使い慣れたインターフェースには、よく知られたパターンが流用されています。インターフェースの意味や目的を確固たるものにするために、これらのパターンをインターフェース内で一貫して使用する必要があります。この原則を、機能、ふるまい、コンテンツ編集、そしてプレゼンテーションに適用しなければなりません。同じものは同じように提示することによって、利用者も同じものは同じように利用できるでしょう。</p>
+          <h4>例</h4>
+          <ul class="examples">
+            <li><strong>一貫したデザインパターン：</strong> 利用者が慣れたり理解したりしやすいように、ウェブやプラットフォームの一貫したデザインパターンを使用しましょう。</li>
+            <li><strong>一貫したコンテンツ編集：</strong> スクリーンリーダーの利用者が依存するコンテンツ編集 (代替テキスト、見出し、ボタンのラベルなど) も含め、平易な言葉をプラットフォーム内で一貫して使用しましょう。コンテンツ編集のスタイルの一貫性を維持することも重要です。 例えば、記事の冒頭には要約の段落をわかりやすく置くことや、箇条書きは必ず太字で書かれた定義から始めることなどが挙げられます。</li>
+            <li><strong>一貫したページの構造：</strong> 主要なコンテンツを閲覧したり回遊したりしやすくするために、テンプレート全体で、一貫したページの構造にしましょう。</li>
+          </ul>
+          <p>
+            <a href="#be-consistent">
+              <img src="/images/link.svg" alt="">
+              「<strong class="principle-name">一貫性を保つ</strong>」へのリンク
+            </a>
+          </p>
+        </div>
+      </div>
+      <div class="principle-container">
+        <div class="intro">
+          <h3 id="give-control">利用者に制御させる</h3>
+          <button data-expands="give-control-content" aria-label="セクションの開閉" aria-describedby="give-control" hidden>
+            <svg focusable="false" height="20mm" width="20mm" viewBox="0 0 70.866142 70.866141">
+             <g transform="translate(0 -981.5)">
+              <rect style="stroke-width:0;fill:currentColor" ry="5" height="60" width="9.8985" y="987.36" x="30.051" class="up-strut"></rect>
+              <rect style="stroke-width:0;fill:currentColor" ry="5" height="10" width="60" y="1012.4" x="5"></rect>
+             </g>
+            </svg>
+          </button>
+        </div>
+        <div id="give-control-content" class="principle-container">
+          <p><em>利用者が自ら制御できるようにしましょう。利用者はそれぞれ好みの方法によって、コンテンツにアクセスして、コンテンツとやりとりできるようにすべきです。</em></p>
+          <h4>詳しい説明</h4>
+          <p>利用者がブラウザやプラットフォームの標準設定を変えること (デバイスの向き、フォントサイズ、ズーム、コントラストなど) を制限したり、不可能にしたりしないでください。さらに、ユーザーが制御できる手段がある場合を除いて、ユーザーが要求していないのにコンテンツを変化させることは避けましょう。</p>
+          <h4>例</h4>
+          <ul class="examples">
+            <li><strong>スクロールの制御：</strong> 「無限スクロール」は、特にキーボードで操作をしている利用者にとっては問題があります。無限スクロールによってコンテンツが更新されるエリアから抜け出すことができないためです。この機能をオフにして、代わりに「もっと読む」ボタンを提供しましょう。</li>
+            <li><strong>停止させる：</strong> アニメーションやスクロールのパララックス効果によって、吐き気を催したり、明らかに集中力が散漫になってしまったりする利用者がいます。自動的に動くコンテンツにおいては、再生コントロールを目立つように提供することによって、利用者が簡単に停止できるようにすべきです。</li>
+            <li><strong>ズームできるようにする：</strong> タッチデバイス上で、ユーザーがピンチアウトのジェスチャによってズーム操作をしたいと考える理由はたくさんあります。ズーム操作を制限しないように、またズーム操作によってコンテンツが隠れてしまうことがないようにしてください。</li>
+          </ul>
+          <p>
+            <a href="#give-control">
+              <img src="/images/link.svg" alt="">
+              「<strong class="principle-name">利用者に制御させる</strong>」へのリンク
+            </a>
+          </p>
+        </div>
+      </div>
+      <div class="principle-container">
+        <div class="intro">
+          <h3 id="offer-choice">選択肢を提供する</h3>
+          <button data-expands="offer-choice-content" aria-label="セクションの開閉" aria-describedby="offer-choice" hidden>
+            <svg focusable="false" height="20mm" width="20mm" viewBox="0 0 70.866142 70.866141">
+             <g transform="translate(0 -981.5)">
+              <rect style="stroke-width:0;fill:currentColor" ry="5" height="60" width="9.8985" y="987.36" x="30.051" class="up-strut"></rect>
+              <rect style="stroke-width:0;fill:currentColor" ry="5" height="10" width="60" y="1012.4" x="5"></rect>
+             </g>
+            </svg>
+          </button>
+        </div>
+        <div id="offer-choice-content" class="principle-content">
+          <p><em>特に複雑なタスクや標準的でないタスクには、利用者がそれらのタスクを完遂できるように、様々な手段を提供することを検討しましょう。</em></p>
+          <h4>詳しい説明</h4>
+          <p>多くの場合、タスクを完遂するには複数の手段があります。利用者が好むであろう手段をあなたが決めつけることはできません。別のレイアウトや、タスクを完遂できる別の手段を提供することによって、利用者は自分に合った選択やそのときの自分の状況に合った選択をすることができます。</p>
+          <h4>例</h4>
+          <ul class="examples">
+            <li><strong>アクションを完了するための複数の手段：</strong>
+必要に応じて、利用者がアクションを完了できる複数の手段を提供します。たとえばモバイルにおいては、スワイプによるアイテム削除だけでなく、アイテムを選択してからボタンで削除できるようにしましょう。この事例としては、iOS のメールアプリがあります。</li>
+            <li><strong>レイアウト：</strong> コンテンツが長いリストになっている場合は、グリッド形式またはリスト形式のレイアウトを選択できるようにすることを検討しましょう。これにより、画面で画像を大きくして見たい利用者や、各項目の横の長さを短くしたい利用者をサポートすることができます。</li>
+            <li><strong>アクセシブルな代替手段：</strong> 例えば、インフォグラフィックスに対するデータテーブルのように、データを提示する代替手段は、スクリーンリーダー利用者だけを想定した隠しリンクではなく、すべての利用者向けに選択肢として提供すべきです。アクセシブルな代替手段を選択肢にすることによって、特定のターゲットグループだけでなく、すべての利用者にとってプラスになります。</li>
+          </ul>
+          <p>
+            <a href="#offer%20choice">
+              <img src="/images/link.svg" alt="">
+              「<strong class="principle-name">選択肢を提供する</strong>」へのリンク
+            </a>
+          </p>
+        </div>
+      </div>
+      <div class="principle-container">
+        <div class="intro">
+          <h3 id="prioritise-content">コンテンツの優先順位を付ける</h3>
+          <button data-expands="prioritise-content-content" aria-label="セクションの開閉" aria-describedby="prioritise-content" hidden>
+            <svg focusable="false" height="20mm" width="20mm" viewBox="0 0 70.866142 70.866141">
+             <g transform="translate(0 -981.5)">
+              <rect style="stroke-width:0;fill:currentColor" ry="5" height="60" width="9.8985" y="987.36" x="30.051" class="up-strut"></rect>
+              <rect style="stroke-width:0;fill:currentColor" ry="5" height="10" width="60" y="1012.4" x="5"></rect>
+             </g>
+            </svg>
+          </button>
+        </div>
+        <div id="prioritise-content-content" class="principle-content">
+          <p><em>ユーザーが主たるタスク、機能、情報に集中できるように、それらをコンテンツやレイアウト内で優先順位付けしましょう。</em></p>
+          <h4>詳しい説明</h4>
+          <p>主たる機能が明確に露出していなかったり、優先順位付けがなされていなかったりすると、インターフェースを理解するのが難しくなる可能性があります。サイトやアプリケーションが多くの情報や機能を提供していても、利用者は一度にひとつのことにしか集中することができません。インターフェースの主たる目的を明確にして、その目的を達成するのに必要なコンテンツや機能を提示しましょう。</p>
+          <h4>例</h4>
+          <ul class="examples">
+            <li><strong>タスクに集中させる：</strong> 場合によっては、機能やコンテンツを順を追って徐々に展開してゆきましょう。</li>
+            <li><strong>タスクの優先順位付け：</strong> 電子メールアプリケーションは、主に電子メールを書いたり読んだりするのに使われます。したがって、「メール作成」ボタンはすべての画面に表示され、フォーカス順序の中でも初めのほうにあります。また、受信箱は「送信済み」や「スパム」などの他のメール分類よりも優先的に表示されます。タグ付けやフォルダへの整理など、使用頻度が比較的低い機能は、メールを読むという主たるタスクが終わった後に使われることが多いため、フォーカス順序の中では後ろのほうにあります。</li>
+            <li><strong>コンテンツの優先順位付け：</strong> ニュース記事ページの主たるコンテンツは、その記事のストーリーです。したがって、見た目とソースコードのどちらにおいても、他のコンテンツよりも前に配置されるべきです。類似の記事のような関連コンテンツはその後に続くべきであり、関連性のないコンテンツはさらにその後に配置されるべきです。</li>
+            <li><strong>コンテンツ編集の優先順位付け：</strong> リンク、見出し、ボタンに対するコンテンツ編集では、平易な言葉を使用し、重要なことを最初に書く必要があります。これは、視覚的に見えるテキストと見えないテキストのどちらにも当てはまります。これにより、利用者はテキストを視覚的に読み取りやすくなり、スクリーンリーダーの利用者は音声で聞き取りやすくなります。平易な言葉を用いることは、その言語の非ネイティブスピーカーにも役に立ち、翻訳しやすくなります。</li>
+          </ul>
+          <p>
+            <a href="#prioritise-content">
+              <img src="/images/link.svg" alt="">
+              「<strong class="principle-name">コンテンツの優先順位を付ける</strong>」へのリンク
+            </a>
+          </p>
+        </div>
+      </div>
+      <div class="principle-container">
+        <div class="intro">
+          <h3 id="add-value">価値を付加する</h3>
+          <button data-expands="add-value-content" aria-label="セクションの開閉" aria-describedby="add-value-content" hidden>
+            <svg focusable="false" height="20mm" width="20mm" viewBox="0 0 70.866142 70.866141">
+             <g transform="translate(0 -981.5)">
+              <rect style="stroke-width:0;fill:currentColor" ry="5" height="60" width="9.8985" y="987.36" x="30.051" class="up-strut"></rect>
+              <rect style="stroke-width:0;fill:currentColor" ry="5" height="10" width="60" y="1012.4" x="5"></rect>
+             </g>
+            </svg>
+          </button>
+        </div>
+        <div id="add-value-content" class="principle-content">
+          <p><em>機能の持つ価値や、その機能によって様々な利用者の体験をどう向上させることができるかを考えましょう。</em></p>
+          <h4>詳しい説明</h4>
+          <p>各機能は、利用者がコンテンツを見つけたり、やりとりしたりするのに効果的で多様な手段を提供することによって、利用者の体験に価値を付加すべきです。音声、位置情報、カメラ、バイブレーションなどの各種 API のようなデバイス機能を活用することや、接続されたデバイスまたはセカンドスクリーンとの統合がいかにして利用者に選択肢を提供できるかといったことを、検討してください。</p>
+          <h4>例</h4>
+          <ul class="examples">
+            <li><strong>接続されたデバイスまたはセカンドスクリーンとの統合：</strong>
+音声インターフェースを使用してマルチメディアを制御したり、音楽やテレビ番組からの出力に対してコンテンツを検索したりできるようにすることによって、他のインターフェースの使用が困難だった利用者に価値をもたらします。</li>
+            <li><strong>プラットフォームAPIとの統合：</strong> プラットフォームが持っている機能を活用して、インターフェースの機能を強化しましょう。バイブレーション API によって、ろう者や難聴者が通知を認識しやすくなります。また、位置情報 API によって、移動に困難を伴う人が位置情報サービスを利用しやすくなります。</li>
+            <li><strong>タスクの完了を容易にする：</strong> パスワード入力フィールドには「パスワードを表示」ボタンを追加して、ユーザーがテキストを正しく入力したかどうかを確認できるようにしましょう。または、パスワード保護領域へのアクセスには、タッチ認証機能を追加しましょう。</li>
+          </ul>
+          <p>
+            <a href="#add-value">
+              <img src="/images/link.svg" alt="">
+              「<strong class="principle-name">価値を付加する</strong>」へのリンク
+            </a>
+          </p>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <p class="project-foot">
+        <strong>Inclusive Design Principles</strong><br>
+        <span>A <a href="https://www.paciellogroup.com/"><img src="/images/tpg.svg" alt="Paciello Group"></a> Project</span><br>
+        <a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/2.0/uk/88x31.png"></a>
+      </p>
+      <p>
+        ご質問・お問い合わせは、info@paciellogroup.com までお寄せください。
+      </p>
+    </footer>
+    <script src="/js/scripts.js"></script>
+  </body>
+</html>

@@ -12,6 +12,10 @@
     fr: {
       EXPAND: "ouvrir tout",
       COLLAPSE: "fermer tout"
+    },
+    ja: {
+      EXPAND: "すべて展開する",
+      COLLAPSE: "すべて折り畳む"
     }
   };
   var pageLang = document.querySelector('html').getAttribute('lang');
