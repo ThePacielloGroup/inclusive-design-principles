@@ -185,7 +185,6 @@ p [src*="link.svg"] {
   border: 0;
   background: 0;
   color: #1b75bc;
-  display: inline-block;
   border-bottom: 2px solid #fefefe;
 }
 
