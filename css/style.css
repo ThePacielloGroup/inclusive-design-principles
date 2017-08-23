@@ -14,6 +14,10 @@ html {
   line-height: 1.4;
 }
 
+[lang="js"] * {
+  font-family: sans-serif; 
+}
+
 header > div, main {
   background-color: #fefefe;
   max-width: 35rem;
@@ -101,6 +105,10 @@ h1 {
   word-spacing: 30rem;
 }
 
+[lang="js"] h1 {
+  font-size: 2.5rem;
+}
+
 .title-and-illustration {
   position: relative;
   margin-top: 1rem;
@@ -128,6 +136,10 @@ h1 {
 @media (max-width: 500px) {
  h1 {
    font-size: 2.5rem;
+ }
+
+ [lang="js"] .title-and-illustration img {
+   display: none;
  }
 }
 
