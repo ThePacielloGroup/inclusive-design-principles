@@ -18,6 +18,10 @@ html {
   font-family: sans-serif; 
 }
 
+[lang="ja"] small {
+  font-size: 0.75rem;
+}
+
 header > div, main {
   background-color: #fefefe;
   max-width: 35rem;
