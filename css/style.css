@@ -181,6 +181,10 @@ p [src*="link.svg"] {
   color: #111;
 }
 
+[lang="ja"] .principle-name {
+  font-family: inherit;
+}
+
 .intro, .with-button {
   display: flex;
   align-items: center;
