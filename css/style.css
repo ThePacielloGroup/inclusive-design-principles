@@ -15,7 +15,7 @@ html {
 }
 
 [lang="ja"] * {
-  font-family: sans-serif; 
+  font-family: Asap, sans-serif;
 }
 
 [lang="ja"] small {
@@ -111,6 +111,7 @@ h1 {
 
 [lang="ja"] h1 {
   font-size: 2.5rem;
+  font-family: Miriam Libre, serif;
 }
 
 .title-and-illustration {
