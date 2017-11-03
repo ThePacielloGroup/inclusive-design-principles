@@ -16,6 +16,10 @@
     ja: {
       EXPAND: "すべて展開する",
       COLLAPSE: "すべて折り畳む"
+    },
+    nl: {
+      EXPAND: "expand all",
+      COLLAPSE: "collapse all"
     }
   };
   var pageLang = document.querySelector('html').getAttribute('lang');
