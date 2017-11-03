@@ -9,6 +9,10 @@
       EXPAND: "muestra todo",
       COLLAPSE: "esconde todos"
     },
+    fa: {
+      EXPAND: "expand all",
+      COLLAPSE: "collapse all"
+    },
     fr: {
       EXPAND: "ouvrir tout",
       COLLAPSE: "fermer tout"
