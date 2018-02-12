@@ -18,8 +18,8 @@
       COLLAPSE: "すべて折り畳む"
     },
     nl: {
-      EXPAND: "expand all",
-      COLLAPSE: "collapse all"
+      EXPAND: "alles uitklappen",
+      COLLAPSE: "alles inklappen"
     }
   };
   var pageLang = document.querySelector('html').getAttribute('lang');
