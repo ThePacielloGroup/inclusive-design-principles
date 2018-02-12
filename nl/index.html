@@ -12,22 +12,22 @@
     <link rel="alternate" hreflang="fr" href="https://inclusivedesignprinciples.org/fr/" />
     <link rel="alternate" hreflang="ja" href="https://inclusivedesignprinciples.org/ja/" />
     <link rel="alternate" hreflang="nl" href="https://inclusivedesignprinciples.org/nl/" />
-    <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
     <link rel="icon" sizes="192x192" href="/favicon.png">
     <link rel="apple-touch-icon" href="/favicon.png">
-    <title>Inclusive Design Principles</title>
+    <title>Principes voor Inclusive Design</title>
   </head>
   <body>
     <header>
       <nav aria-label="page">
         <ul>
-          <li><a href="#introduction">Introduction</a></li>
-          <li><a href="#principles">The Principles</a></li>
+          <li><a href="#introduction">Introductie</a></li>
+          <li><a href="#principles">De principes</a></li>
         </ul>
       </nav>
 
       <aside class="languages">
-        <h2>Choose a language:</h2>
+        <h2>Kies een taal:</h2>
         <ul>
           <li><a href="/" lang="en" hreflang="en">English</a></li>
           <li><a href="/es/" lang="es" hreflang="es">Español</a></li>
@@ -40,31 +40,30 @@
       <div>
         <div class="title-and-illustration">
           <h1>
+            Principes voor
             Inclusive
             Design
-            Principles
           </h1>
-          <img src="/images/balloons_opt.svg" alt="three hot air balloons hang together in a calm, sunny sky" />
+          <img src="../images/balloons_opt.svg" alt="three hot air balloons hang together in a calm, sunny sky" />
         </div>
-        <p>Contributors: Henny Swan, Ian Pouncey, Heydon Pickering, Léonie Watson</p>
+        <p>Met bijdragen van: Henny Swan, Ian Pouncey, Heydon Pickering, Léonie Watson</p>
         <p><a href="https://www.paciellogroup.com/"><img src="/images/tpg.svg" alt="In association with The Paciello Group"></a></p>
       </div>
     </header>
     <main>
       <div id="introduction" tabindex="-1">
-        <p>These Inclusive Design Principles are about putting people first. It's about designing for the needs of people with permanent, temporary, situational, or changing disabilities — all of us really.</p>
-        <p>They are intended to give anyone involved in the design and development of websites and applications - designers, user experience professionals, developers,
-product owners, idea makers, innovators, artists and thinkers - a broad approach to inclusive design.</p>
-        <p>For more background, read about the <a href="https://developer.paciellogroup.com/blog/2017/06/inclusive-design-principles/"><em>Inclusive Design Principles</em></a> on the TPG blog.</p>
+        <p>Deze Principes voor Inclusive Design stellen mensen centraal. Ze bestaan zodat we kunnen ontwerpen voor de behoeften van mensen met langdurige, tijdelijke, situationele of veranderende beperkingen — zo'n beetje iedereen.</p>
+        <p>Ze zijn bedoeld om iedereen die zich bezighoudt met het ontwerpen en bouwen van websites en applicaties – ontwerpers, UX designers, ontwikkelaars, product owners, ideeënbedenkers, innovators, artiesten en denkers — een brede aanpak van Inclusive Design.</p>
+        <p>Lees voor meer achtergrondinformatie over <a href="https://developer.paciellogroup.com/blog/2017/06/inclusive-design-principles/"><em>Inclusive Design Principles</em></a> op het blog van The Paciello Group.</p>
       </div>
       <h2 id="principles" class="with-button" tabindex="-1">
-        <span>The Principles</span>
-        <button data-expandAll hidden>expand all</button>
+        <span>De principes</span>
+        <button data-expandAll hidden>open alle</button>
       </h2>
       <div class="principle-container">
         <div class="intro">
-          <h3 id="provide-comparable-experience">Provide comparable experience</h3>
-          <button data-expands="provide-comparable-experience-content" aria-label="open section" aria-describedby="provide-comparable-experience" hidden>
+          <h3 id="provide-comparable-experience">Bied een vergelijkbare ervaring</h3>
+          <button data-expands="provide-comparable-experience-content" aria-label="open sectie" aria-describedby="provide-comparable-experience" hidden>
             <svg focusable="false" height="20mm" width="20mm" viewBox="0 0 70.866142 70.866141">
              <g transform="translate(0 -981.5)">
               <rect style="stroke-width:0;fill:currentColor" ry="5" height="60" width="9.8985" y="987.36" x="30.051" class="up-strut" />
@@ -74,28 +73,28 @@ product owners, idea makers, innovators, artists and thinkers - a broad approach
           </button>
         </div>
         <div id="provide-comparable-experience-content" class="principle-content">
-          <p><em>Ensure your interface provides a comparable experience for all so people can accomplish tasks in a way that suits their needs without undermining the quality of the content.</em></p>
-          <h4>Full description</h4>
-          <p>Whether out of circumstance, choice, or context people are diverse. As people use different approaches and tools to read and operate interfaces, what the interface offers each user should be comparable in value, quality, and efficiency.</p>
-          <h4>Examples</h4>
+          <p><em>Zorg ervoor dat je interface een vergelijkbare ervaring biedt voor iedereen, zodat iedereen taken kan afronden op een manier die bij hun behoeftes past, zonder dat dat de kwaliteit van de content aantast.</em></p>
+          <h4>Volledige omschrijving</h4>
+          <p>Of nu komt door omstandigheden, keuzes of context: mensen zijn divers. Omdat mensen verschillende manieren en tools gebruiken om te lezen en met interfaces te werken, moet de interface elke gebruiker evenveel waarde, kwaliteit en efficiëntie bieden.</p>
+          <h4>Voorbeelden</h4>
           <ul class="examples">
-            <li><strong>Content for alternatives:</strong> Having a basic alternative, whether it's alt text, a transcript, audio description, or sign language, makes the content accessible but to be equivalent it needs to capture the essence of the original.</li>
-            <li><strong>Ergonomic features:</strong> Providing synchronized closed captions makes your video accessible. But making them customizable, color coded, and repositionable provides a more comparable experience.</li>
-            <li><strong>Notifications:</strong> Notifications that appear in an interface are visually obvious but require proactive discovery by screen reader users. A comparable experience for blind users, can be achieved by using a live region. The notification then requires no explicit action on the part of the user.</li>
+            <li><strong>Bied alternatieven:</strong> Een basaal alternatief, zoals een alttekst, een (audio)transcriptie of gebarentaal, maakt je content toegankelijker. Om een gelijkwaardig alternatief te zijn moet het wel de essentie van het origineel vatten.</li>
+            <li><strong>Ergonomische functies:</strong> Het bieden van gesynchroniseerde <em>closed captions</em> maakt je video toegankelijker. Als je ze aanpasbaar en kleurgecodeerd maakt, bied je de meest vergelijkbare ervaring.</em></li>
+            <li><strong>Notificaties:</strong> Notifications die in je interface voorkomen zijn visueel duidelijk, maar verwachten van screenreadergebruikers extra moeite om te ontdekken. Met een live region kun je een gelijkwaardige ervaring voor blinde gebruikers bieden. De notificatie kost dan geen extra moeite voor blinde gebruikers.</li>
           </ul>
           <p>
             <a href="#provide-comparable-experience">
               <img src="/images/link.svg" alt="">
-              Link to <strong class="principle-name">Provide comparable experience</strong>
+              Link naar <strong class="principle-name">Bied een gelijkwaardige ervaring</strong>
             </a>
           </p>
         </div>
       </div>
       <div class="principle-container">
         <div class="intro">
-          <h3 id="consider-situation">Consider situation
+          <h3 id="consider-situation">Denk na over de context
           </h3>
-          <button data-expands="consider-situation-content" aria-label="open section" aria-describedby="consider-situation" hidden>
+          <button data-expands="consider-situation-content" aria-label="open sectie" aria-describedby="consider-situation" hidden>
             <svg focusable="false" height="20mm" width="20mm" viewBox="0 0 70.866142 70.866141">
              <g transform="translate(0 -981.5)">
               <rect style="stroke-width:0;fill:currentColor" ry="5" height="60" width="9.8985" y="987.36" x="30.051" class="up-strut" />
@@ -105,28 +104,28 @@ product owners, idea makers, innovators, artists and thinkers - a broad approach
           </button>
         </div>
         <div id="consider-situation-content" class="principle-content">
-          <p><em>People use your interface in different situations. Make sure your interface delivers a valuable experience to people regardless of their circumstances.</em></p>
-          <h4>Full description</h4>
-          <p>People are first time users, established users, users at work, users at home, users on the move, and users under pressure. All of these situations can have an impact. For those who already find interaction challenging, such as those with disabilities, this impact may make usage particularly difficult.</p>
-          <h4>Examples</h4>
+          <p><em>Mensen gebruiken je interface in verschillende contexten. Zorg dat je interface een waardevolle ervaring biedt aan mensen, ongeacht hun omstandigheden.</em></p>
+          <h4>Volledige omschrijving</h4>
+          <p>Mensen zijn nieuwe gebruikers, ervaren gebruikers, gebruikers op het werk, gebruikers thuis, gebruikers onderweg en gebruikers die onder druk staan. Al deze contexten kunnen een rol spelen. Vooral voor hen die interactieve zaken al lastig vinden, zoals mensen met een beperking, kunnen zulke contexten het nog lastiger maken.</p>
+          <h4>Voorbeelden</h4>
           <ul class="examples">
-            <li><strong>Colour contrast:</strong> When using an interface outdoors, good contrast lessens the impact of bright sunshine.</li>
-            <li><strong>Context sensitive help:</strong> Users may need help when they first encounter a complex form or interaction. This help may become redundant, even distracting, as a user becomes more familiar with the form or interaction. Context sensitive help provides the user with choice as to when they access help and better control over the page.</li>
-            <li><strong>Captions on the go:</strong> You're aware that the video content you are providing will be consumed on mobile devices, which may be in public spaces where people might prefer to consume the content without being antisocial. For smaller viewports, sound is switched off and captions activated by default.</li>
+            <li><strong>Kleurcontrast:</strong> Wannneer je een interface buiten de deur gebruikt, zorgt voldoende contrast ervoor dat je minder last hebt van felle zon.</li>
+            <li><strong>Contextgevoelige hulp:</strong> Als gebruikers voor de eerste keer in aanraking komen met een complex formulier of een ingewikkelde pagina, hebben ze misschien hulp nodig. Voor gebruikers die de interface al kennen, is die hulp misschien overbodig. Contextgevoelige hulp geeft je gebruikers de keuze om wel of niet hulp in te schakelen en geeft ze meer controle over de pagina.</li>
+            <li><strong>Captions onderweg:</strong> Je weet dat de video-content die je aanbiedt ook onderweg zal worden bekeken, en dat zou zomaar eens kunnen gebeuren in publieke ruimten waar mensen de content willen bekijken zonder andere mensen tot last te zijn. Voor kleinere viewports zet je standaard het geluid uit, en captions aan.</li>
           </ul>
           <p>
             <a href="#consider-situation">
               <img src="/images/link.svg" alt="">
-              Link to <strong class="principle-name">Consider situation</strong>
+              Link naar <strong class="principle-name">Denk na over context</strong>
             </a>
           </p>
         </div>
       </div>
       <div class="principle-container">
         <div class="intro">
-          <h3 id="be-consistent">Be consistent
+          <h3 id="be-consistent">Wees eenduidig
           </h3>
-          <button data-expands="be-consistent-content" aria-label="open section" aria-describedby="be-consistent" hidden>
+          <button data-expands="be-consistent-content" aria-label="open sectie" aria-describedby="be-consistent" hidden>
             <svg focusable="false" height="20mm" width="20mm" viewBox="0 0 70.866142 70.866141">
              <g transform="translate(0 -981.5)">
               <rect style="stroke-width:0;fill:currentColor" ry="5" height="60" width="9.8985" y="987.36" x="30.051" class="up-strut" />
@@ -136,28 +135,28 @@ product owners, idea makers, innovators, artists and thinkers - a broad approach
           </button>
         </div>
         <div id="be-consistent-content" class="principle-content">
-          <p><em>Use familiar conventions and apply them consistently.</em></p>
-          <h4>Full description</h4>
-          <p>Familiar interfaces borrow from well-established patterns. These should be used consistently within the interface to reinforce their meaning and purpose. This should be applied to functionality, behavior, editorial, and presentation. You should say the same things in the same way and users should be able to do the same things in the same way.</p>
-          <h4>Examples</h4>
+          <p><em>Maak gebruik van bekende patterns en doe dit consistent.</em></p>
+          <h4>Volledige omschrijving</h4>
+          <p>Herkenbare interfaces maken gebruik van bekende patterns. Om hun betekenis en doel kracht bij te zetten, moeten ze consistent worden gebruiken binnen een interface. Pas dit toe op functionaliteit, gedrag, teksten en presentatie. Zeg dezelfde dingen op dezelfde manier, zodat gebruikers dezelfde dingen kunnen doen op dezelfde manier.</p>
+          <h4>Voorbeelden</h4>
           <ul class="examples">
-            <li><strong>Consistent design patterns:</strong> Use consistent web and platform design patterns to help build familiarity and understanding.</li>
-            <li><strong>Consistent editorial:</strong> Use plain language consistently across platforms including editorial that is relied on by screen reader users such as text alternatives, headings, labels for buttons and so on. Keeping editorial style consistent is also important, such as making sure the top of articles always have a clearly marked summary paragraph, or making sure bullets always start with a bolded definition.</li>
-            <li><strong>Consistent page architecture:</strong> Use consistent page architecture across templates to help people scan and navigate key content.</li>
+            <li><strong>Consistente design patterns:</strong> Gebruik patterns die consistent zijn met het web en het platform, om herkenbaarheid en begrip te vergroten.</li>
+            <li><strong>Consistente teksten:</strong> Gebruik eenvoudige taal op een consistente manier op alle platforms, en dat geldt ook voor taal die wordt ingezet voor gebruikers van screenreaders, zoals tekstalternatieven, headings, labels voor knoppen enzovoort. Het is ook belangrijk om de stijl van je taal consistent te houden, zorg bijvoorbeeld dat artikelen bovenin een duidelijk gemarkeerde samenvatting bevatten, of zorg dat een opsomming altijd begint met een vetgedrukte definitie.</li>
+            <li><strong>Consistente pagina-architectuur:</strong> Gebruik consistente pagina-architectuur tussen templates, zodat mensen de content makkelijk kunnen scannen en door de belangrijkste content kunnen springen.</li>
           </ul>
           <p>
             <a href="#be-consistent">
               <img src="/images/link.svg" alt="">
-              Link to <strong class="principle-name">Be consistent</strong>
+              Link naar <strong class="principle-name">Wees consistent</strong>
             </a>
           </p>
         </div>
       </div>
       <div class="principle-container">
         <div class="intro">
-          <h3 id="give-control">Give control
+          <h3 id="give-control">Geef controle
           </h3>
-          <button data-expands="give-control-content" aria-label="open section" aria-describedby="give-control" hidden>
+          <button data-expands="give-control-content" aria-label="open sectie" aria-describedby="give-control" hidden>
             <svg focusable="false" height="20mm" width="20mm" viewBox="0 0 70.866142 70.866141">
              <g transform="translate(0 -981.5)">
               <rect style="stroke-width:0;fill:currentColor" ry="5" height="60" width="9.8985" y="987.36" x="30.051" class="up-strut" />
@@ -167,19 +166,19 @@ product owners, idea makers, innovators, artists and thinkers - a broad approach
           </button>
         </div>
         <div id="give-control-content" class="principle-container">
-          <p><em>Ensure people are in control. People should be able to access and interact with content in their preferred way.</em></p>
-          <h4>Full description</h4>
-          <p>Do not suppress or disable the ability to change standard browser and platform settings such as orientation, font size, zoom, and contrast. In addition, avoid content changes that have not been initiated by the user unless there is a way to control it.</p>
-          <h4>Examples</h4>
+          <p><em>Zorg dat mensen de controle hebben. Mensen moeten je content kunnen benaderen en iets mee kunnen doen op de manier die zij kiezen.</em></p>
+          <h4>Volledige omschrijving</h4>
+          <p>Zit niet aan standaard browserfunctionaliteiten zoals de mogelijkheid om tekstgrootte, zoom, contrast of rotering. Vermijd ook het veranderen van content als de gebruiker daar niet voor heeft gekozen, of biedt een amnier om de gebruiker er controle over te geven.</p>
+          <h4>Voorbeelden</h4>
           <ul class="examples">
-            <li><strong>Scrolling control:</strong> 'Infinite scrolling' can be problematic, especially for users navigating by keyboard because they can't get past the stream of refreshing content. Give the option to turn off this feature and replace it with a 'load more' button.</li>
-            <li><strong>Make it stop:</strong> Some users find that animations or parallax scrolling cause nausea, and others find them plain distracting. Where they play automatically, they should at least be easy to stop, by providing prominent playback controls.</li>
-            <li><strong>Allow zoom:</strong> There are many reasons why a user may want to operate the pinch-to-zoom gesture on their touch device. Make sure it is not suppressed, and that the content does not get obscured when it is put to use.</li>
+            <li><strong>Controle over scrollen:</strong> ‘Infinite scrolling’ kan een probleem zijn, met name voor toetsenbordgebruikers, want die kunnen dan soms niet langs de steeds verversende content springen. Bied een optie om ‘infinite scrolling’ uit te zetten en vervang het met een ‘Meer laden’ knop.</li>
+            <li><strong>Biedt een stopknop:</strong> Sommige gebruikers worden misselijk van animaties of parallax scrolling, voor anderen zitten ze in de weg. Als dit soort dingen automatisch afspelen, maak het dan makkelijk om ze uit te zetten: bied een stopknop.</li>
+            <li><strong>Sta zoomen toe:</strong> Er zijn allerlei redenen waarom gebruikers graag willen inzoomen op hun touch-apparaat. Zet deze functionaliteit dus niet uit, en zorg ervoor dat er geen content onleesbaar is als het wordt gebruikt.</li>
           </ul>
           <p>
             <a href="#give-control">
               <img src="/images/link.svg" alt="">
-              Link to <strong class="principle-name">Give control</strong>
+              Link naar <strong class="principle-name">Bied control</strong>
             </a>
           </p>
         </div>
@@ -188,7 +187,7 @@ product owners, idea makers, innovators, artists and thinkers - a broad approach
         <div class="intro">
           <h3 id="offer-choice">Offer choice
           </h3>
-          <button data-expands="offer-choice-content" aria-label="open section" aria-describedby="offer-choice" hidden>
+          <button data-expands="offer-choice-content" aria-label="open sectie" aria-describedby="offer-choice" hidden>
             <svg focusable="false" height="20mm" width="20mm" viewBox="0 0 70.866142 70.866141">
              <g transform="translate(0 -981.5)">
               <rect style="stroke-width:0;fill:currentColor" ry="5" height="60" width="9.8985" y="987.36" x="30.051" class="up-strut" />
@@ -199,7 +198,7 @@ product owners, idea makers, innovators, artists and thinkers - a broad approach
         </div>
         <div id="offer-choice-content" class="principle-content">
           <p><em>Consider providing different ways for people to complete tasks, especially those that are complex or non standard.</em></p>
-          <h4>Full description</h4>
+          <h4>Volledige omschrijving</h4>
           <p>There is often more than one way to complete a task. You cannot assume what someone's preferred way might be. By providing alternatives for layout and task completion, you offer people choices that suit them and their circumstances at the time.</p>
           <h4>Examples</h4>
           <ul class="examples">
@@ -210,7 +209,7 @@ product owners, idea makers, innovators, artists and thinkers - a broad approach
           <p>
             <a href="#offer-choice">
               <img src="/images/link.svg" alt="">
-              Link to <strong class="principle-name">Offer choice</strong>
+              Link naar <strong class="principle-name">Offer choice</strong>
             </a>
           </p>
         </div>
@@ -219,7 +218,7 @@ product owners, idea makers, innovators, artists and thinkers - a broad approach
         <div class="intro">
           <h3 id="prioritise-content">Prioritise content
           </h3>
-          <button data-expands="prioritise-content-content" aria-label="open section" aria-describedby="prioritise-content" hidden>
+          <button data-expands="prioritise-content-content" aria-label="open sectie" aria-describedby="prioritise-content" hidden>
             <svg focusable="false" height="20mm" width="20mm" viewBox="0 0 70.866142 70.866141">
              <g transform="translate(0 -981.5)">
               <rect style="stroke-width:0;fill:currentColor" ry="5" height="60" width="9.8985" y="987.36" x="30.051" class="up-strut" />
@@ -230,7 +229,7 @@ product owners, idea makers, innovators, artists and thinkers - a broad approach
         </div>
         <div id="prioritise-content-content" class="principle-content">
           <p><em>Help users focus on core tasks, features, and information by prioritising them within the content and layout.</em></p>
-          <h4>Full description</h4>
+          <h4>Volledige omschrijving</h4>
           <p>Interfaces can be difficult to understand when core features are not clearly exposed and prioritised. A site or application may provide lots of information and functionality, but people should be able to focus on one thing at a time. Identify the core purpose of the interface, and then the content and features needed to fulfill that purpose.</p>
           <h4>Examples</h4>
           <ul class="examples">
@@ -242,7 +241,7 @@ product owners, idea makers, innovators, artists and thinkers - a broad approach
           <p>
             <a href="#prioritise-content">
               <img src="/images/link.svg" alt="">
-              Link to <strong class="principle-name">Prioritise content</strong>
+              Link naar <strong class="principle-name">Prioritise content</strong>
             </a>
           </p>
         </div>
@@ -251,7 +250,7 @@ product owners, idea makers, innovators, artists and thinkers - a broad approach
         <div class="intro">
           <h3 id="add-value">Add value
           </h3>
-          <button data-expands="add-value-content" aria-label="open section" aria-describedby="add-value-content" hidden>
+          <button data-expands="add-value-content" aria-label="open sectie" aria-describedby="add-value-content" hidden>
             <svg focusable="false" height="20mm" width="20mm" viewBox="0 0 70.866142 70.866141">
              <g transform="translate(0 -981.5)">
               <rect style="stroke-width:0;fill:currentColor" ry="5" height="60" width="9.8985" y="987.36" x="30.051" class="up-strut" />
@@ -262,7 +261,7 @@ product owners, idea makers, innovators, artists and thinkers - a broad approach
         </div>
         <div id="add-value-content" class="principle-content">
           <p><em>Consider the value of features and how they improve the experience for different users.</em></p>
-          <h4>Full description</h4>
+          <h4>Volledige omschrijving</h4>
           <p>Features should add value to the user experience by providing efficient and diverse ways to find and interact with content. Consider device features such as voice, geolocation, camera and vibration API's, and how integration with connected devices or a second screen could provide choice.</p>
           <h4>Examples</h4>
           <ul class="examples">
@@ -273,7 +272,7 @@ product owners, idea makers, innovators, artists and thinkers - a broad approach
           <p>
             <a href="#add-value">
               <img src="/images/link.svg" alt="">
-              Link to <strong class="principle-name">Add value</strong>
+              Link naar <strong class="principle-name">Add value</strong>
             </a>
           </p>
         </div>
