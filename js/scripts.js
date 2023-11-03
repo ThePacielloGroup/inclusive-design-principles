@@ -20,6 +20,10 @@
     nl: {
       EXPAND: "alles uitklappen",
       COLLAPSE: "alles inklappen"
+    },
+    pt: {
+      EXPAND: "mostrar todos",
+      COLLAPSE: "fechar todos"
     }
   };
   var pageLang = document.querySelector('html').getAttribute('lang');
